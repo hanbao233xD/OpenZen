@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.world;
+package shit.zen.modules.impl.world;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
@@ -13,13 +13,13 @@ import net.minecraft.world.level.block.WebBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
-import sh1t.ze.event.impl.MotionEvent;
-import sh1t.ze.event.impl.UpdateHeldItemEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.utils.game.ItemUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.MotionEvent;
+import shit.zen.event.impl.UpdateHeldItemEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.utils.game.ItemUtil;
+import shit.zen.event.EventTarget;
 
 public class AutoTools
 extends Module {

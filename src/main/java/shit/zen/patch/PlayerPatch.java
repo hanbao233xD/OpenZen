@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -8,10 +8,10 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.asm.Invocation;
-import sh1t.ze.event.impl.EntityRemoveEvent;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.asm.Invocation;
+import shit.zen.event.impl.EntityRemoveEvent;
 
 @Patch(Player.class)
 public class PlayerPatch {

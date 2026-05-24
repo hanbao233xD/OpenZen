@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.player;
+package shit.zen.modules.impl.player;
 
 import java.util.concurrent.LinkedBlockingDeque;
 import net.minecraft.core.BlockPos;
@@ -8,19 +8,19 @@ import net.minecraft.network.protocol.game.ServerGamePacketListener;
 import net.minecraft.network.protocol.game.ServerboundMovePlayerPacket;
 import net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket;
 import net.minecraft.world.level.block.Blocks;
-import sh1t.ze.event.impl.MotionEvent;
-import sh1t.ze.event.impl.PacketEvent;
-import sh1t.ze.event.impl.ReceivePacketEvent;
-import sh1t.ze.event.impl.StrafeEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.movement.Scaffold;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.game.MotionSimulator;
-import sh1t.ze.utils.game.PlayerUtil;
-import sh1t.ze.utils.misc.PacketUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.MotionEvent;
+import shit.zen.event.impl.PacketEvent;
+import shit.zen.event.impl.ReceivePacketEvent;
+import shit.zen.event.impl.StrafeEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.movement.Scaffold;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.game.MotionSimulator;
+import shit.zen.utils.game.PlayerUtil;
+import shit.zen.utils.misc.PacketUtil;
+import shit.zen.event.EventTarget;
 
 public class AntiVoid
 extends Module {

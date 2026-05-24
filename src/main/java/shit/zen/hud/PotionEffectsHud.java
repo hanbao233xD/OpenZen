@@ -1,4 +1,4 @@
-package sh1t.ze.hud;
+package shit.zen.hud;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,18 +7,18 @@ import java.util.Optional;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffectUtil;
-import sh1t.ze.event.impl.GlRenderEvent;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.render.DrawContext;
-import sh1t.ze.render.FontPresets;
-import sh1t.ze.render.FontRenderer;
-import sh1t.ze.render.GlHelper;
-import sh1t.ze.render.Paint;
-import sh1t.ze.render.RoundedRectangle;
-import sh1t.ze.utils.math.Easings;
-import sh1t.ze.utils.render.ColorUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.GlRenderEvent;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.render.DrawContext;
+import shit.zen.render.FontPresets;
+import shit.zen.render.FontRenderer;
+import shit.zen.render.GlHelper;
+import shit.zen.render.Paint;
+import shit.zen.render.RoundedRectangle;
+import shit.zen.utils.math.Easings;
+import shit.zen.utils.render.ColorUtil;
+import shit.zen.event.EventTarget;
 
 public class PotionEffectsHud
 extends HudElement {
@@ -29,9 +29,9 @@ extends HudElement {
         public String effectName;
         public String durationText;
         public String amplifierText;
-        public final sh1t.ze.utils.animation.SmoothAnimationTimer fadeAnim = new sh1t.ze.utils.animation.SmoothAnimationTimer();
-        public final sh1t.ze.utils.animation.SmoothAnimationTimer heightAnim = new sh1t.ze.utils.animation.SmoothAnimationTimer();
-        public final sh1t.ze.utils.animation.SmoothAnimationTimer widthAnim = new sh1t.ze.utils.animation.SmoothAnimationTimer();
+        public final shit.zen.utils.animation.SmoothAnimationTimer fadeAnim = new shit.zen.utils.animation.SmoothAnimationTimer();
+        public final shit.zen.utils.animation.SmoothAnimationTimer heightAnim = new shit.zen.utils.animation.SmoothAnimationTimer();
+        public final shit.zen.utils.animation.SmoothAnimationTimer widthAnim = new shit.zen.utils.animation.SmoothAnimationTimer();
         public boolean removing = false;
         public boolean visible = true;
 
@@ -75,15 +75,15 @@ extends HudElement {
         }
 
         public void show(float targetHeight) {
-            this.heightAnim.animate(1.0, 0.3, sh1t.ze.utils.math.Easings.EASE_OUT_POW3);
-            this.widthAnim.animate(targetHeight, 0.3, sh1t.ze.utils.math.Easings.EASE_OUT_POW3);
+            this.heightAnim.animate(1.0, 0.3, shit.zen.utils.math.Easings.EASE_OUT_POW3);
+            this.widthAnim.animate(targetHeight, 0.3, shit.zen.utils.math.Easings.EASE_OUT_POW3);
         }
 
         public void startRemove() {
             if (this.removing) return;
             this.removing = true;
-            this.heightAnim.animate(0.0, 0.2, sh1t.ze.utils.math.Easings.EASE_IN_POW3);
-            this.widthAnim.animate(0.0, 0.2, sh1t.ze.utils.math.Easings.EASE_IN_POW3);
+            this.heightAnim.animate(0.0, 0.2, shit.zen.utils.math.Easings.EASE_IN_POW3);
+            this.widthAnim.animate(0.0, 0.2, shit.zen.utils.math.Easings.EASE_IN_POW3);
         }
 
         public boolean isRemoveDone() {

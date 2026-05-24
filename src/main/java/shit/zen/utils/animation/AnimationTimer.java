@@ -1,7 +1,7 @@
-package sh1t.ze.utils.animation;
+package shit.zen.utils.animation;
 
 import lombok.Setter;
-import sh1t.ze.utils.math.Easing;
+import shit.zen.utils.math.Easing;
 
 public abstract class AnimationTimer {
     @Setter

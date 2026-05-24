@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.player.helper.impl;
+package shit.zen.modules.impl.player.helper.impl;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -20,14 +20,14 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.event.impl.MotionEvent;
-import sh1t.ze.event.impl.RenderEvent;
-import sh1t.ze.modules.impl.player.Helper;
-import sh1t.ze.modules.impl.player.helper.HelperBase;
-import sh1t.ze.utils.game.ItemUtil;
-import sh1t.ze.utils.game.RotationUtil;
-import sh1t.ze.utils.render.RenderUtil;
-import sh1t.ze.utils.rotation.Rotation;
+import shit.zen.event.impl.MotionEvent;
+import shit.zen.event.impl.RenderEvent;
+import shit.zen.modules.impl.player.Helper;
+import shit.zen.modules.impl.player.helper.HelperBase;
+import shit.zen.utils.game.ItemUtil;
+import shit.zen.utils.game.RotationUtil;
+import shit.zen.utils.render.RenderUtil;
+import shit.zen.utils.rotation.Rotation;
 
 public class BlockWater
 extends HelperBase {

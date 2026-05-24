@@ -1,4 +1,4 @@
-package sh1t.ze.utils.math;
+package shit.zen.utils.math;
 
 @FunctionalInterface
 public interface Easing {

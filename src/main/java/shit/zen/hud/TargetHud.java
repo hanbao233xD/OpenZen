@@ -1,4 +1,4 @@
-package sh1t.ze.hud;
+package shit.zen.hud;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,16 +9,16 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientboundSetScorePacket;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.LivingEntity;
-import sh1t.ze.event.impl.GlRenderEvent;
-import sh1t.ze.event.impl.PacketEvent;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.hud.target.RoundTargetStyle;
-import sh1t.ze.hud.target.TargetStyle;
-import sh1t.ze.modules.impl.combat.KillAura;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
-import sh1t.ze.utils.math.Easings;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.GlRenderEvent;
+import shit.zen.event.impl.PacketEvent;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.hud.target.RoundTargetStyle;
+import shit.zen.hud.target.TargetStyle;
+import shit.zen.modules.impl.combat.KillAura;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.utils.animation.SmoothAnimationTimer;
+import shit.zen.utils.math.Easings;
+import shit.zen.event.EventTarget;
 
 public class TargetHud
 extends HudElement {

@@ -1,4 +1,4 @@
-package sh1t.ze.render.shader;
+package shit.zen.render.shader;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.logging.LogUtils;
@@ -10,9 +10,9 @@ import lombok.Getter;
 import org.joml.Matrix4f;
 import org.lwjgl.opengl.GL20;
 import org.slf4j.Logger;
-import sh1t.ze.render.shader.Matrix4Uniform;
-import sh1t.ze.render.shader.ShaderFormats;
-import sh1t.ze.render.shader.ShaderSource;
+import shit.zen.render.shader.Matrix4Uniform;
+import shit.zen.render.shader.ShaderFormats;
+import shit.zen.render.shader.ShaderSource;
 
 public class ShaderProgram {
     private static final Logger LOGGER = LogUtils.getLogger();

@@ -1,4 +1,4 @@
-package sh1t.ze.gui.newclickgui;
+package shit.zen.gui.newclickgui;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.util.ArrayList;
@@ -8,27 +8,27 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.Generated;
 import net.minecraft.client.gui.GuiGraphics;
-import sh1t.ze.gui.NewClickGui;
-import sh1t.ze.gui.newclickgui.BooleanSettingElement;
-import sh1t.ze.gui.newclickgui.CategoryPanel;
-import sh1t.ze.gui.newclickgui.ModeSettingElement;
-import sh1t.ze.gui.newclickgui.MultiSelectSettingElement;
-import sh1t.ze.gui.newclickgui.NumberSettingElement;
-import sh1t.ze.gui.newclickgui.SettingElement;
-import sh1t.ze.gui.newclickgui.UIElement;
-import sh1t.ze.modules.Module;
-import sh1t.ze.render.FontStore;
-import sh1t.ze.settings.Setting;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.settings.impl.MultiSelectSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
-import sh1t.ze.utils.math.Easings;
-import sh1t.ze.utils.misc.CursorUtil;
-import sh1t.ze.utils.render.ColorUtil;
-import sh1t.ze.utils.render.RenderHelper;
-import sh1t.ze.utils.render.RenderUtil;
+import shit.zen.gui.NewClickGui;
+import shit.zen.gui.newclickgui.BooleanSettingElement;
+import shit.zen.gui.newclickgui.CategoryPanel;
+import shit.zen.gui.newclickgui.ModeSettingElement;
+import shit.zen.gui.newclickgui.MultiSelectSettingElement;
+import shit.zen.gui.newclickgui.NumberSettingElement;
+import shit.zen.gui.newclickgui.SettingElement;
+import shit.zen.gui.newclickgui.UIElement;
+import shit.zen.modules.Module;
+import shit.zen.render.FontStore;
+import shit.zen.settings.Setting;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.settings.impl.MultiSelectSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.animation.SmoothAnimationTimer;
+import shit.zen.utils.math.Easings;
+import shit.zen.utils.misc.CursorUtil;
+import shit.zen.utils.render.ColorUtil;
+import shit.zen.utils.render.RenderHelper;
+import shit.zen.utils.render.RenderUtil;
 
 public class ModuleElement
 extends UIElement {

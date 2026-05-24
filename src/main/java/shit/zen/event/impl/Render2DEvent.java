@@ -1,9 +1,9 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import lombok.Generated;
 import net.minecraft.client.gui.GuiGraphics;
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.EventMarker;
 
 import java.util.Objects;
 

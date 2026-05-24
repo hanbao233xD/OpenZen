@@ -1,4 +1,4 @@
-package sh1t.ze.utils.rotation;
+package shit.zen.utils.rotation;
 
 import java.util.concurrent.ThreadLocalRandom;
 import lombok.EqualsAndHashCode;
@@ -9,8 +9,8 @@ import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
 import org.apache.commons.lang3.RandomUtils;
-import sh1t.ze.ClientBase;
-import sh1t.ze.utils.math.Vector2f;
+import shit.zen.ClientBase;
+import shit.zen.utils.math.Vector2f;
 
 @EqualsAndHashCode
 @ToString

@@ -1,8 +1,8 @@
-package sh1t.ze.command.impl;
+package shit.zen.command.impl;
 
-import sh1t.ze.ZenClient;
-import sh1t.ze.command.Command;
-import sh1t.ze.command.impl.LanguageCommand.EventHandler;
+import shit.zen.ZenClient;
+import shit.zen.command.Command;
+import shit.zen.command.impl.LanguageCommand.EventHandler;
 
 public class LanguageCommand
 extends Command {

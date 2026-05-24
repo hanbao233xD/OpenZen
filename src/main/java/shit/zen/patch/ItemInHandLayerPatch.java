@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.Patch;
 import net.minecraft.client.renderer.entity.layers.ItemInHandLayer;

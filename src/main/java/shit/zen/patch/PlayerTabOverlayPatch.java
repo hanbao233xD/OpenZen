@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -21,13 +21,13 @@ import org.objectweb.asm.tree.AbstractInsnNode;
 import org.objectweb.asm.tree.InsnList;
 import org.objectweb.asm.tree.MethodInsnNode;
 import org.objectweb.asm.tree.MethodNode;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.ChatReceiveEvent;
-import sh1t.ze.hud.TabListInfo;
-import sh1t.ze.modules.impl.render.Watermark;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.ChatReceiveEvent;
+import shit.zen.hud.TabListInfo;
+import shit.zen.modules.impl.render.Watermark;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.utils.misc.ReflectionUtil;
 
 @Patch(PlayerTabOverlay.class)
 public class PlayerTabOverlayPatch extends ClientBase {

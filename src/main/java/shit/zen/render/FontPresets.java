@@ -1,7 +1,7 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
-import sh1t.ze.render.FontRenderer;
-import sh1t.ze.render.Fonts;
+import shit.zen.render.FontRenderer;
+import shit.zen.render.Fonts;
 
 public final class FontPresets {
     public static FontRenderer pingfang(float size) {

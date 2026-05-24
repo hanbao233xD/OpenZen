@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.combat.antikb;
+package shit.zen.modules.impl.combat.antikb;
 
 import java.util.concurrent.LinkedBlockingDeque;
 import net.minecraft.network.PacketListener;
@@ -28,21 +28,21 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.DisconnectEvent;
-import sh1t.ze.event.impl.GameTickEvent;
-import sh1t.ze.event.impl.MotionEvent;
-import sh1t.ze.event.impl.PreMotionEvent;
-import sh1t.ze.event.impl.ReceivePacketEvent;
-import sh1t.ze.event.impl.RotationEvent;
-import sh1t.ze.event.impl.SprintEvent;
-import sh1t.ze.event.impl.StrafeEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.impl.combat.AntiKB;
-import sh1t.ze.modules.impl.combat.KillAura;
-import sh1t.ze.modules.impl.combat.antikb.AntiKBMode;
-import sh1t.ze.modules.impl.player.Stuck;
-import sh1t.ze.utils.misc.ChatUtil;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.DisconnectEvent;
+import shit.zen.event.impl.GameTickEvent;
+import shit.zen.event.impl.MotionEvent;
+import shit.zen.event.impl.PreMotionEvent;
+import shit.zen.event.impl.ReceivePacketEvent;
+import shit.zen.event.impl.RotationEvent;
+import shit.zen.event.impl.SprintEvent;
+import shit.zen.event.impl.StrafeEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.impl.combat.AntiKB;
+import shit.zen.modules.impl.combat.KillAura;
+import shit.zen.modules.impl.combat.antikb.AntiKBMode;
+import shit.zen.modules.impl.player.Stuck;
+import shit.zen.utils.misc.ChatUtil;
 
 public class NoXZMode
 extends AntiKBMode {

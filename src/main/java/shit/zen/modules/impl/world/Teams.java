@@ -1,12 +1,12 @@
-package sh1t.ze.modules.impl.world;
+package shit.zen.modules.impl.world;
 
 import java.util.Objects;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.ModeSetting;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.ModeSetting;
 
 public class Teams
 extends Module {

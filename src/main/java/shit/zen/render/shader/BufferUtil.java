@@ -1,4 +1,4 @@
-package sh1t.ze.render.shader;
+package shit.zen.render.shader;
 
 import java.nio.FloatBuffer;
 import org.joml.Matrix4f;

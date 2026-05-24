@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -13,11 +13,11 @@ import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.asm.Invocation;
-import sh1t.ze.event.impl.UpdateHeldItemEvent;
-import sh1t.ze.modules.impl.render.OldHitting;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.asm.Invocation;
+import shit.zen.event.impl.UpdateHeldItemEvent;
+import shit.zen.modules.impl.render.OldHitting;
 
 @Patch(ItemInHandRenderer.class)
 public class ItemInHandRendererPatch {

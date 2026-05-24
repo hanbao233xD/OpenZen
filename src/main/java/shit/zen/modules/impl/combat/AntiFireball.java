@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.combat;
+package shit.zen.modules.impl.combat;
 
 import java.util.Optional;
 import java.util.stream.Stream;
@@ -6,11 +6,11 @@ import java.util.stream.StreamSupport;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.projectile.Fireball;
-import sh1t.ze.event.impl.MotionEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.utils.misc.ChatUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.MotionEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.utils.misc.ChatUtil;
+import shit.zen.event.EventTarget;
 
 public class AntiFireball
 extends Module {

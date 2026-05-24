@@ -1,11 +1,11 @@
-package sh1t.ze.event;
+package shit.zen.event;
 
-import sh1t.ze.event.Cancellable;
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.Cancellable;
+import shit.zen.event.EventMarker;
 
 public abstract class Event
-        implements Cancellable,
-        EventMarker {
+implements Cancellable,
+EventMarker {
     public boolean cancelled;
 
     protected Event() {

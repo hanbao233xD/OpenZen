@@ -1,16 +1,16 @@
-package sh1t.ze.manager;
+package shit.zen.manager;
 
 import java.util.HashMap;
 import java.util.Map;
-import sh1t.ze.ZenClient;
-import sh1t.ze.command.Command;
-import sh1t.ze.command.impl.BindCommand;
-import sh1t.ze.command.impl.ConfigCommand;
-import sh1t.ze.command.impl.LanguageCommand;
-import sh1t.ze.command.impl.ToggleCommand;
-import sh1t.ze.event.impl.ChatEvent;
-import sh1t.ze.utils.misc.ChatUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.ZenClient;
+import shit.zen.command.Command;
+import shit.zen.command.impl.BindCommand;
+import shit.zen.command.impl.ConfigCommand;
+import shit.zen.command.impl.LanguageCommand;
+import shit.zen.command.impl.ToggleCommand;
+import shit.zen.event.impl.ChatEvent;
+import shit.zen.utils.misc.ChatUtil;
+import shit.zen.event.EventTarget;
 
 public class CommandManager {
     public static final String PREFIX = ".";

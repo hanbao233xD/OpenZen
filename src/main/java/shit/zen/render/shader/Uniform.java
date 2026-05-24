@@ -1,4 +1,4 @@
-package sh1t.ze.render.shader;
+package shit.zen.render.shader;
 
 import lombok.Getter;
 import lombok.Generated;

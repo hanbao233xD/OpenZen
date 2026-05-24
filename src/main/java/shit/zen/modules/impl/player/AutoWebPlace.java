@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.player;
+package shit.zen.modules.impl.player;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -29,22 +29,22 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.RenderEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.combat.KillAura;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.animation.TickTimer;
-import sh1t.ze.utils.game.PlayerUtil;
-import sh1t.ze.utils.game.RotationUtil;
-import sh1t.ze.utils.misc.ChatUtil;
-import sh1t.ze.utils.misc.PacketUtil;
-import sh1t.ze.utils.render.RenderUtil;
-import sh1t.ze.utils.rotation.Rotation;
-import sh1t.ze.event.EventTarget;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.RenderEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.combat.KillAura;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.animation.TickTimer;
+import shit.zen.utils.game.PlayerUtil;
+import shit.zen.utils.game.RotationUtil;
+import shit.zen.utils.misc.ChatUtil;
+import shit.zen.utils.misc.PacketUtil;
+import shit.zen.utils.render.RenderUtil;
+import shit.zen.utils.rotation.Rotation;
+import shit.zen.event.EventTarget;
 
 public class AutoWebPlace extends Module {
     public static AutoWebPlace INSTANCE;

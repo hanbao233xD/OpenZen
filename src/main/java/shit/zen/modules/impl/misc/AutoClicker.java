@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.misc;
+package shit.zen.modules.impl.misc;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -8,17 +8,17 @@ import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraftforge.client.ForgeHooksClient;
-import sh1t.ze.event.impl.SprintEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.animation.Timer;
-import sh1t.ze.utils.game.CpsUtil;
-import sh1t.ze.utils.misc.ReflectionUtil;
-import sh1t.ze.utils.misc.UnsafeUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.SprintEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.animation.Timer;
+import shit.zen.utils.game.CpsUtil;
+import shit.zen.utils.misc.ReflectionUtil;
+import shit.zen.utils.misc.UnsafeUtil;
+import shit.zen.event.EventTarget;
 
 public class AutoClicker extends Module {
     private final NumberSetting cps = new NumberSetting("CPS", 7, 4, 25, 1);

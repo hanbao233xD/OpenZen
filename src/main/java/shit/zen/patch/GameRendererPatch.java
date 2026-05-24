@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -11,15 +11,15 @@ import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import org.joml.Matrix4f;
-import sh1t.ze.ZenClient;
-import sh1t.ze.asm.Invocation;
-import sh1t.ze.event.impl.GlRenderEvent;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.modules.impl.render.AspectRatio;
-import sh1t.ze.modules.impl.render.FullBright;
-import sh1t.ze.modules.impl.render.NoHurtCam;
-import sh1t.ze.render.Renderer;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ZenClient;
+import shit.zen.asm.Invocation;
+import shit.zen.event.impl.GlRenderEvent;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.modules.impl.render.AspectRatio;
+import shit.zen.modules.impl.render.FullBright;
+import shit.zen.modules.impl.render.NoHurtCam;
+import shit.zen.render.Renderer;
+import shit.zen.utils.misc.ReflectionUtil;
 
 @Patch(GameRenderer.class)
 public class GameRendererPatch {

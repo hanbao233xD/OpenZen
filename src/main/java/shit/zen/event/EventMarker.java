@@ -1,4 +1,4 @@
-package sh1t.ze.event;
+package shit.zen.event;
 
 public interface EventMarker {
 }

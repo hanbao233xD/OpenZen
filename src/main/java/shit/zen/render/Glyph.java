@@ -1,6 +1,6 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
-import sh1t.ze.render.GlyphPage;
+import shit.zen.render.GlyphPage;
 
 record Glyph(int u, int v, int width, int height, char value, GlyphPage owner) {
 }

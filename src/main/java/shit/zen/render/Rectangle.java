@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 public record Rectangle(float x1, float y1, float x2, float y2) {
 

@@ -1,15 +1,15 @@
-package sh1t.ze.modules.impl.render;
+package shit.zen.modules.impl.render;
 
-import sh1t.ze.event.impl.PacketEvent;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.event.impl.RenderEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.render.nametag.NameTagStyle;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.PacketEvent;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.event.impl.RenderEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.render.nametag.NameTagStyle;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.event.EventTarget;
 
 public class NameTags
 extends Module {

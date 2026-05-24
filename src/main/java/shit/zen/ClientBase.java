@@ -1,4 +1,4 @@
-package sh1t.ze;
+package shit.zen;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import net.minecraft.client.Minecraft;

@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.player;
+package shit.zen.modules.impl.player;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
@@ -10,15 +10,15 @@ import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.game.ItemUtil;
-import sh1t.ze.utils.game.RotationUtil;
-import sh1t.ze.utils.rotation.Rotation;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.game.ItemUtil;
+import shit.zen.utils.game.RotationUtil;
+import shit.zen.utils.rotation.Rotation;
+import shit.zen.event.EventTarget;
 
 public class AutoMLG
 extends Module {

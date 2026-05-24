@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -10,8 +10,8 @@ import net.minecraft.server.RunningOnDifferentThreadException;
 import net.minecraft.util.thread.BlockableEventLoop;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sh1t.ze.ZenClient;
-import sh1t.ze.network.PacketHandlerUtil;
+import shit.zen.ZenClient;
+import shit.zen.network.PacketHandlerUtil;
 
 @Patch(PacketUtils.class)
 public class PacketUtilsPatch {

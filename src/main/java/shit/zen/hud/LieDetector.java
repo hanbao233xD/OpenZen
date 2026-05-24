@@ -1,19 +1,19 @@
-package sh1t.ze.hud;
+package shit.zen.hud;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.texture.DynamicTexture;
 import net.minecraft.world.entity.LivingEntity;
-import sh1t.ze.event.impl.GlRenderEvent;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.modules.impl.combat.KillAura;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
-import sh1t.ze.utils.animation.Timer;
-import sh1t.ze.utils.math.Easings;
-import sh1t.ze.utils.misc.SoundUtil;
-import sh1t.ze.utils.render.RenderHelper;
-import sh1t.ze.utils.render.RenderUtil;
-import sh1t.ze.utils.render.TextureUtil;
+import shit.zen.event.impl.GlRenderEvent;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.modules.impl.combat.KillAura;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.utils.animation.SmoothAnimationTimer;
+import shit.zen.utils.animation.Timer;
+import shit.zen.utils.math.Easings;
+import shit.zen.utils.misc.SoundUtil;
+import shit.zen.utils.render.RenderHelper;
+import shit.zen.utils.render.RenderUtil;
+import shit.zen.utils.render.TextureUtil;
 
 public class LieDetector
 extends HudElement {

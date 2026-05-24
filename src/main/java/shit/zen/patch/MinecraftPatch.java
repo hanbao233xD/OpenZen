@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -18,16 +18,16 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.forgespi.language.IModFileInfo;
 import net.minecraftforge.forgespi.language.IModInfo;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.asm.Invocation;
-import sh1t.ze.event.impl.DisconnectEvent;
-import sh1t.ze.event.impl.PostMotionEvent;
-import sh1t.ze.event.impl.PreMotionEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.impl.movement.NoSlow;
-import sh1t.ze.modules.impl.render.ESP;
-import sh1t.ze.render.Renderer;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.asm.Invocation;
+import shit.zen.event.impl.DisconnectEvent;
+import shit.zen.event.impl.PostMotionEvent;
+import shit.zen.event.impl.PreMotionEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.impl.movement.NoSlow;
+import shit.zen.modules.impl.render.ESP;
+import shit.zen.render.Renderer;
 
 @Patch(Minecraft.class)
 public class MinecraftPatch {

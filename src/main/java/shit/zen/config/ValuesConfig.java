@@ -1,4 +1,4 @@
-package sh1t.ze.config;
+package shit.zen.config;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import sh1t.ze.ZenClient;
-import sh1t.ze.config.Config;
-import sh1t.ze.hud.HudElement;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.settings.impl.MultiSelectSetting;
-import sh1t.ze.settings.impl.NumberSetting;
+import shit.zen.ZenClient;
+import shit.zen.config.Config;
+import shit.zen.hud.HudElement;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.settings.impl.MultiSelectSetting;
+import shit.zen.settings.impl.NumberSetting;
 
 public class ValuesConfig
 extends Config {

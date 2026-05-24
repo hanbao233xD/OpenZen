@@ -1,4 +1,4 @@
-package sh1t.ze.asm;
+package shit.zen.asm;
 
 import java.util.HashMap;
 import java.util.Map;

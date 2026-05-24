@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -10,11 +10,11 @@ import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.LivingEntity;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.asm.Invocation;
-import sh1t.ze.event.impl.RenderEntityEvent;
-import sh1t.ze.event.impl.RotationAnimationEvent;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.asm.Invocation;
+import shit.zen.event.impl.RenderEntityEvent;
+import shit.zen.event.impl.RotationAnimationEvent;
 
 @Patch(LivingEntityRenderer.class)
 public class LivingEntityRendererPatch {

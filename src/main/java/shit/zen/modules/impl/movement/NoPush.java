@@ -1,12 +1,12 @@
-package sh1t.ze.modules.impl.movement;
+package shit.zen.modules.impl.movement;
 
-import sh1t.ze.event.impl.SneakEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.SneakEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.event.EventTarget;
 
 public class NoPush
-        extends Module {
+extends Module {
     public NoPush() {
         super("NoPush", Category.MOVEMENT);
     }

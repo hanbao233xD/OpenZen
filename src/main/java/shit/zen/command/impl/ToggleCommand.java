@@ -1,10 +1,10 @@
-package sh1t.ze.command.impl;
+package shit.zen.command.impl;
 
-import sh1t.ze.ZenClient;
-import sh1t.ze.command.Command;
-import sh1t.ze.exception.ModuleNotFoundException;
-import sh1t.ze.modules.Module;
-import sh1t.ze.utils.misc.ChatUtil;
+import shit.zen.ZenClient;
+import shit.zen.command.Command;
+import shit.zen.exception.ModuleNotFoundException;
+import shit.zen.modules.Module;
+import shit.zen.utils.misc.ChatUtil;
 
 public class ToggleCommand
 extends Command {

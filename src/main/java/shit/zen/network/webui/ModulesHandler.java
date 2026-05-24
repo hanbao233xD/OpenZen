@@ -1,4 +1,4 @@
-package sh1t.ze.network.webui;
+package shit.zen.network.webui;
 
 import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
@@ -8,10 +8,10 @@ import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
-import sh1t.ze.ZenClient;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.utils.render.TextureUtil;
+import shit.zen.ZenClient;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.utils.render.TextureUtil;
 
 public class ModulesHandler extends AbstractHttpHandler {
     private final Gson gson = new Gson();

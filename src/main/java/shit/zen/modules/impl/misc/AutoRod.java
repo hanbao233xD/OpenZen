@@ -1,17 +1,17 @@
-package sh1t.ze.modules.impl.misc;
+package shit.zen.modules.impl.misc;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import org.lwjgl.glfw.GLFW;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.player.MidPearl;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.game.PlayerUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.player.MidPearl;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.game.PlayerUtil;
+import shit.zen.event.EventTarget;
 
 public class AutoRod
 extends Module {

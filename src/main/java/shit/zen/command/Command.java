@@ -1,4 +1,4 @@
-package sh1t.ze.command;
+package shit.zen.command;
 
 import lombok.Getter;
 import lombok.Generated;

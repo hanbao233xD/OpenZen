@@ -1,4 +1,4 @@
-package sh1t.ze.utils.game;
+package shit.zen.utils.game;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,9 +14,9 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.ClientBase;
-import sh1t.ze.utils.game.RotationUtil;
-import sh1t.ze.utils.rotation.Rotation;
+import shit.zen.ClientBase;
+import shit.zen.utils.game.RotationUtil;
+import shit.zen.utils.rotation.Rotation;
 
 public final class RayTraceUtil
 extends ClientBase {

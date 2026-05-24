@@ -1,18 +1,18 @@
-package sh1t.ze.gui.panel.setting;
+package shit.zen.gui.panel.setting;
 
 import java.awt.Color;
 import java.util.HashMap;
 import java.util.Map;
 import net.minecraft.client.gui.GuiGraphics;
-import sh1t.ze.ClientBase;
-import sh1t.ze.gui.PanelClickGui;
-import sh1t.ze.render.FontPresets;
-import sh1t.ze.render.FontRenderer;
-import sh1t.ze.render.TextGlow;
-import sh1t.ze.settings.Setting;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.utils.math.LerpUtil;
-import sh1t.ze.utils.render.RenderUtil;
+import shit.zen.ClientBase;
+import shit.zen.gui.PanelClickGui;
+import shit.zen.render.FontPresets;
+import shit.zen.render.FontRenderer;
+import shit.zen.render.TextGlow;
+import shit.zen.settings.Setting;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.utils.math.LerpUtil;
+import shit.zen.utils.render.RenderUtil;
 
 public class BooleanSettingRenderer
 extends ClientBase

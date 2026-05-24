@@ -1,10 +1,10 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.Overwrite;
 import asm.patchify.annotation.Patch;
 import net.minecraft.client.Timer;
-import sh1t.ze.ZenClient;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ZenClient;
+import shit.zen.utils.misc.ReflectionUtil;
 
 @Patch(Timer.class)
 public class TimerPatch {

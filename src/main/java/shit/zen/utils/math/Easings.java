@@ -1,6 +1,6 @@
-package sh1t.ze.utils.math;
+package shit.zen.utils.math;
 
-import sh1t.ze.utils.math.Easing;
+import shit.zen.utils.math.Easing;
 
 public class Easings {
     public static final Easing BACK_OUT = t -> 1.0 + 2.70158 * Math.pow(t - 1.0, 3.0) + 1.70158 * Math.pow(t - 1.0, 2.0);

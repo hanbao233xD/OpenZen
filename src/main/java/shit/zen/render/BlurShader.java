@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import java.nio.FloatBuffer;
 import org.lwjgl.opengl.GL11;

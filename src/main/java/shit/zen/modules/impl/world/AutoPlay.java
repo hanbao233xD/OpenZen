@@ -1,14 +1,14 @@
-package sh1t.ze.modules.impl.world;
+package shit.zen.modules.impl.world;
 
 import net.minecraft.network.protocol.game.ClientboundSystemChatPacket;
-import sh1t.ze.event.impl.DisconnectEvent;
-import sh1t.ze.event.impl.PacketEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.misc.ChatUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.DisconnectEvent;
+import shit.zen.event.impl.PacketEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.misc.ChatUtil;
+import shit.zen.event.EventTarget;
 
 public class AutoPlay
 extends Module {

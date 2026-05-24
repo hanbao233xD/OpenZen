@@ -1,4 +1,4 @@
-package sh1t.ze.network.webui;
+package shit.zen.network.webui;
 
 import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import sh1t.ze.modules.Category;
+import shit.zen.modules.Category;
 
 public class CategoriesHandler extends AbstractHttpHandler {
 

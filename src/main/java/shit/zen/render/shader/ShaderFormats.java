@@ -1,4 +1,4 @@
-package sh1t.ze.render.shader;
+package shit.zen.render.shader;
 
 import io.netty.util.collection.IntObjectHashMap;
 import java.util.Map;

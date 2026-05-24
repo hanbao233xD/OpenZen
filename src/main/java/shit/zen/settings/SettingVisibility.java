@@ -1,4 +1,4 @@
-package sh1t.ze.settings;
+package shit.zen.settings;
 
 @FunctionalInterface
 public interface SettingVisibility {

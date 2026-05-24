@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.player;
+package shit.zen.modules.impl.player;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -16,12 +16,12 @@ import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.event.impl.PreMotionEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.utils.game.BlockUtil;
-import sh1t.ze.utils.game.ChunkUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.PreMotionEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.utils.game.BlockUtil;
+import shit.zen.utils.game.ChunkUtil;
+import shit.zen.event.EventTarget;
 
 public class GhostHand
 extends Module {

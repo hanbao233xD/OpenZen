@@ -1,18 +1,18 @@
-package sh1t.ze.gui.newclickgui;
+package shit.zen.gui.newclickgui;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.util.Mth;
-import sh1t.ze.gui.NewClickGui;
-import sh1t.ze.gui.newclickgui.CategoryPanel;
-import sh1t.ze.gui.newclickgui.SettingElement;
-import sh1t.ze.render.FontStore;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
-import sh1t.ze.utils.math.Easings;
-import sh1t.ze.utils.misc.CursorUtil;
-import sh1t.ze.utils.render.ColorUtil;
-import sh1t.ze.utils.render.RenderUtil;
+import shit.zen.gui.NewClickGui;
+import shit.zen.gui.newclickgui.CategoryPanel;
+import shit.zen.gui.newclickgui.SettingElement;
+import shit.zen.render.FontStore;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.utils.animation.SmoothAnimationTimer;
+import shit.zen.utils.math.Easings;
+import shit.zen.utils.misc.CursorUtil;
+import shit.zen.utils.render.ColorUtil;
+import shit.zen.utils.render.RenderUtil;
 
 public class ModeSettingElement
 extends SettingElement<ModeSetting> {

@@ -1,4 +1,4 @@
-package sh1t.ze.utils.misc;
+package shit.zen.utils.misc;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

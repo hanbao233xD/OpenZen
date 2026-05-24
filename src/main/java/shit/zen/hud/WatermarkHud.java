@@ -1,4 +1,4 @@
-package sh1t.ze.hud;
+package shit.zen.hud;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.awt.Color;
@@ -6,12 +6,12 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.client.multiplayer.ServerData;
 import net.minecraft.util.Mth;
-import sh1t.ze.ClientBase;
-import sh1t.ze.modules.impl.movement.Scaffold;
-import sh1t.ze.render.DrawContext;
-import sh1t.ze.render.FontPresets;
-import sh1t.ze.render.FontRenderer;
-import sh1t.ze.render.Paint;
+import shit.zen.ClientBase;
+import shit.zen.modules.impl.movement.Scaffold;
+import shit.zen.render.DrawContext;
+import shit.zen.render.FontPresets;
+import shit.zen.render.FontRenderer;
+import shit.zen.render.Paint;
 
 public class WatermarkHud
 extends ClientBase

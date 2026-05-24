@@ -1,10 +1,10 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import java.awt.Font;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
-import sh1t.ze.utils.misc.Assets;
+import shit.zen.utils.misc.Assets;
 
 public final class Fonts {
     private static final Map<String, FontRenderer> fontRendererCache = new HashMap<>();

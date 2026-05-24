@@ -1,9 +1,9 @@
-package sh1t.ze.utils.misc;
+package shit.zen.utils.misc;
 
 import java.util.HashMap;
 import java.util.Map;
 import org.lwjgl.glfw.GLFW;
-import sh1t.ze.ClientBase;
+import shit.zen.ClientBase;
 
 public class CursorUtil {
     private static final Map<Integer, Long> cursorCache = new HashMap<>();

@@ -1,4 +1,4 @@
-package sh1t.ze.manager;
+package shit.zen.manager;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -7,10 +7,10 @@ import lombok.Setter;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ServerboundKeepAlivePacket;
 import org.apache.commons.lang3.tuple.Pair;
-import sh1t.ze.ClientBase;
-import sh1t.ze.event.impl.PacketEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.event.EventTarget;
+import shit.zen.ClientBase;
+import shit.zen.event.impl.PacketEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.event.EventTarget;
 
 public class LagManager {
     public static LagManager INSTANCE;

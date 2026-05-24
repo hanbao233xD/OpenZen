@@ -1,4 +1,4 @@
-package sh1t.ze.asm;
+package shit.zen.asm;
 
 /**
  * Mutable view of the local-variable slots seen by a {@code @ModifyLocals} handler.

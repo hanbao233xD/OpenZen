@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -12,9 +12,9 @@ import net.minecraft.client.renderer.GameRenderer;
 import org.joml.Matrix4f;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL30;
-import sh1t.ze.render.BlurFbo;
-import sh1t.ze.render.BlurShader;
-import sh1t.ze.render.DrawContext;
+import shit.zen.render.BlurFbo;
+import shit.zen.render.BlurShader;
+import shit.zen.render.DrawContext;
 
 public final class BlurRenderer {
     private static final BlurFbo fboA = new BlurFbo();

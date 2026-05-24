@@ -1,13 +1,13 @@
-package sh1t.ze.modules.impl.render;
+package shit.zen.modules.impl.render;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import sh1t.ze.gui.NewClickGui;
-import sh1t.ze.gui.OldClickGui;
-import sh1t.ze.gui.PanelClickGui;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.ModeSetting;
+import shit.zen.gui.NewClickGui;
+import shit.zen.gui.OldClickGui;
+import shit.zen.gui.PanelClickGui;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.ModeSetting;
 
 public class ClickGuiModule
 extends Module {

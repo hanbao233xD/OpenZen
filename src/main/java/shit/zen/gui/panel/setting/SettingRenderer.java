@@ -1,7 +1,7 @@
-package sh1t.ze.gui.panel.setting;
+package shit.zen.gui.panel.setting;
 
 import net.minecraft.client.gui.GuiGraphics;
-import sh1t.ze.settings.Setting;
+import shit.zen.settings.Setting;
 
 public interface SettingRenderer {
     int render(GuiGraphics guiGraphics, Setting<?> setting, int x, int y, int width, int mouseX, int mouseY, float alpha, float scale);

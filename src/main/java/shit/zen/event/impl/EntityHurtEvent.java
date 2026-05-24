@@ -1,9 +1,9 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
 import lombok.Generated;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.LivingEntity;
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.EventMarker;
 
 public record EntityHurtEvent(LivingEntity entity, DamageSource damageSource, float amount)
         implements EventMarker {

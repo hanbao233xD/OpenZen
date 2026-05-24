@@ -1,11 +1,11 @@
-package sh1t.ze.gui.newclickgui;
+package shit.zen.gui.newclickgui;
 
 import lombok.Getter;
 import lombok.Generated;
-import sh1t.ze.gui.newclickgui.CategoryPanel;
-import sh1t.ze.gui.newclickgui.UIElement;
-import sh1t.ze.settings.Setting;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
+import shit.zen.gui.newclickgui.CategoryPanel;
+import shit.zen.gui.newclickgui.UIElement;
+import shit.zen.settings.Setting;
+import shit.zen.utils.animation.SmoothAnimationTimer;
 
 public abstract class SettingElement<T extends Setting<?>>
 extends UIElement {

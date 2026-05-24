@@ -1,4 +1,4 @@
-package sh1t.ze.gui;
+package shit.zen.gui;
 
 import java.awt.Color;
 import java.util.List;
@@ -9,23 +9,23 @@ import lombok.Getter;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import sh1t.ze.ZenClient;
-import sh1t.ze.gui.panel.CategoryBar;
-import sh1t.ze.gui.panel.KeybindOverlay;
-import sh1t.ze.gui.panel.ModuleListPanel;
-import sh1t.ze.gui.panel.ProfileWidget;
-import sh1t.ze.gui.panel.ScaleSwitchOverlay;
-import sh1t.ze.gui.panel.SettingsPanel;
-import sh1t.ze.gui.panel.setting.NumberSettingRenderer;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.render.FontPresets;
-import sh1t.ze.render.FontRenderer;
-import sh1t.ze.render.GlHelper;
-import sh1t.ze.render.Renderer;
-import sh1t.ze.render.TextGlow;
-import sh1t.ze.utils.math.LerpUtil;
-import sh1t.ze.utils.render.RenderUtil;
+import shit.zen.ZenClient;
+import shit.zen.gui.panel.CategoryBar;
+import shit.zen.gui.panel.KeybindOverlay;
+import shit.zen.gui.panel.ModuleListPanel;
+import shit.zen.gui.panel.ProfileWidget;
+import shit.zen.gui.panel.ScaleSwitchOverlay;
+import shit.zen.gui.panel.SettingsPanel;
+import shit.zen.gui.panel.setting.NumberSettingRenderer;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.render.FontPresets;
+import shit.zen.render.FontRenderer;
+import shit.zen.render.GlHelper;
+import shit.zen.render.Renderer;
+import shit.zen.render.TextGlow;
+import shit.zen.utils.math.LerpUtil;
+import shit.zen.utils.render.RenderUtil;
 
 public class PanelClickGui
 extends Screen {

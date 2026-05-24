@@ -1,10 +1,10 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
 import lombok.Generated;
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.EventMarker;
 
 public class CameraPitchEvent
-        implements EventMarker {
+implements EventMarker {
     private float pitch;
 
     public float getPitch() {

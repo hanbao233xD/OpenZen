@@ -1,11 +1,11 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.Generated;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.event.Event;
+import shit.zen.event.Event;
 
 import java.util.Objects;
 

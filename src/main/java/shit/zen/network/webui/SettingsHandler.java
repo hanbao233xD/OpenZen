@@ -1,4 +1,4 @@
-package sh1t.ze.network.webui;
+package shit.zen.network.webui;
 
 import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
@@ -9,14 +9,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import sh1t.ze.ZenClient;
-import sh1t.ze.exception.ModuleNotFoundException;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.Setting;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.render.TextureUtil;
+import shit.zen.ZenClient;
+import shit.zen.exception.ModuleNotFoundException;
+import shit.zen.modules.Module;
+import shit.zen.settings.Setting;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.render.TextureUtil;
 
 public class SettingsHandler extends AbstractHttpHandler {
 

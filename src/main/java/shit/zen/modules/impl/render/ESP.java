@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.render;
+package shit.zen.modules.impl.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.BufferBuilder;
@@ -25,18 +25,18 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import org.joml.Matrix4f;
 import org.joml.Vector4d;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.event.impl.RenderEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.utils.game.EntityUtil;
-import sh1t.ze.utils.math.Vector2f;
-import sh1t.ze.utils.render.ColorUtil;
-import sh1t.ze.utils.render.ProjectionUtil;
-import sh1t.ze.utils.render.RenderUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.event.impl.RenderEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.utils.game.EntityUtil;
+import shit.zen.utils.math.Vector2f;
+import shit.zen.utils.render.ColorUtil;
+import shit.zen.utils.render.ProjectionUtil;
+import shit.zen.utils.render.RenderUtil;
+import shit.zen.event.EventTarget;
 
 public class ESP extends Module {
     public static ESP INSTANCE;

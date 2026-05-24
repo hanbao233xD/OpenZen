@@ -1,4 +1,4 @@
-package sh1t.ze.network.webui;
+package shit.zen.network.webui;
 
 import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
@@ -7,11 +7,11 @@ import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
-import sh1t.ze.ZenClient;
-import sh1t.ze.exception.ModuleNotFoundException;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.world.WebUI;
-import sh1t.ze.utils.render.TextureUtil;
+import shit.zen.ZenClient;
+import shit.zen.exception.ModuleNotFoundException;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.world.WebUI;
+import shit.zen.utils.render.TextureUtil;
 
 public class ToggleModuleHandler extends AbstractHttpHandler {
 

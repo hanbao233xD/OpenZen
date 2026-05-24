@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.movement;
+package shit.zen.modules.impl.movement;
 
 import java.util.LinkedHashSet;
 import net.minecraft.network.PacketListener;
@@ -8,12 +8,12 @@ import net.minecraft.network.protocol.game.ClientboundPingPacket;
 import net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket;
 import net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket;
 import net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket;
-import sh1t.ze.event.impl.ReceivePacketEvent;
-import sh1t.ze.event.impl.RotationEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.ReceivePacketEvent;
+import shit.zen.event.impl.RotationEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.event.EventTarget;
 
 public class Fly extends Module {
     public static Fly INSTANCE;

@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.combat;
+package shit.zen.modules.impl.combat;
 
 import java.util.Comparator;
 import java.util.Optional;
@@ -15,19 +15,19 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.scores.Team;
-import sh1t.ze.event.impl.SprintEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.movement.Scaffold;
-import sh1t.ze.modules.impl.player.Stuck;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.animation.Timer;
-import sh1t.ze.utils.game.PlayerUtil;
-import sh1t.ze.utils.game.RotationUtil;
-import sh1t.ze.utils.rotation.Rotation;
-import sh1t.ze.utils.rotation.RotationHandler;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.SprintEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.movement.Scaffold;
+import shit.zen.modules.impl.player.Stuck;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.animation.Timer;
+import shit.zen.utils.game.PlayerUtil;
+import shit.zen.utils.game.RotationUtil;
+import shit.zen.utils.rotation.Rotation;
+import shit.zen.utils.rotation.RotationHandler;
+import shit.zen.event.EventTarget;
 
 public class AutoThrow
 extends Module {

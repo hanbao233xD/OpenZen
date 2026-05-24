@@ -1,4 +1,4 @@
-package sh1t.ze.network.webui;
+package shit.zen.network.webui;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;

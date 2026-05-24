@@ -1,18 +1,18 @@
-package sh1t.ze.modules.impl.player;
+package shit.zen.modules.impl.player;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket;
 import net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket;
-import sh1t.ze.event.impl.KeyEvent;
-import sh1t.ze.event.impl.MotionEvent;
-import sh1t.ze.event.impl.PacketEvent;
-import sh1t.ze.event.impl.StrafeEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.misc.PacketUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.KeyEvent;
+import shit.zen.event.impl.MotionEvent;
+import shit.zen.event.impl.PacketEvent;
+import shit.zen.event.impl.StrafeEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.misc.PacketUtil;
+import shit.zen.event.EventTarget;
 
 public class NoFall
 extends Module {

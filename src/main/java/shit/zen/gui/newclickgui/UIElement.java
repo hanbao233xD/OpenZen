@@ -1,11 +1,11 @@
-package sh1t.ze.gui.newclickgui;
+package shit.zen.gui.newclickgui;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import lombok.Getter;
 import lombok.Setter;
 import net.minecraft.client.gui.GuiGraphics;
-import sh1t.ze.gui.NewClickGui;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
+import shit.zen.gui.NewClickGui;
+import shit.zen.utils.animation.SmoothAnimationTimer;
 
 public abstract class UIElement {
     @Getter @Setter

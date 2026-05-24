@@ -1,22 +1,22 @@
-package sh1t.ze.manager;
+package shit.zen.manager;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.GlRenderEvent;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.gui.IntroAnimation;
-import sh1t.ze.hud.HudElement;
-import sh1t.ze.hud.KeyBindsHud;
-import sh1t.ze.hud.LieDetector;
-import sh1t.ze.hud.ModuleListHud;
-import sh1t.ze.hud.PlayerListHud;
-import sh1t.ze.hud.PotionEffectsHud;
-import sh1t.ze.hud.TargetHud;
-import sh1t.ze.event.EventTarget;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.GlRenderEvent;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.gui.IntroAnimation;
+import shit.zen.hud.HudElement;
+import shit.zen.hud.KeyBindsHud;
+import shit.zen.hud.LieDetector;
+import shit.zen.hud.ModuleListHud;
+import shit.zen.hud.PlayerListHud;
+import shit.zen.hud.PotionEffectsHud;
+import shit.zen.hud.TargetHud;
+import shit.zen.event.EventTarget;
 
 public class HudManager {
     private final Map<String, HudElement> hudElements = new HashMap<>();

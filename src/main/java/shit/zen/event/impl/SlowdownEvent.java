@@ -1,8 +1,8 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
 import lombok.Setter;
 import lombok.Generated;
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.EventMarker;
 
 public class SlowdownEvent
 implements EventMarker {

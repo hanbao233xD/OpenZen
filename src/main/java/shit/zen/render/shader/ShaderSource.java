@@ -1,4 +1,4 @@
-package sh1t.ze.render.shader;
+package shit.zen.render.shader;
 
 import java.util.HashMap;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.combat;
+package shit.zen.modules.impl.combat;
 
 import java.util.concurrent.TimeUnit;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -14,14 +14,14 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.misc.PacketUtil;
-import sh1t.ze.utils.misc.ThreadPool;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.misc.PacketUtil;
+import shit.zen.utils.misc.ThreadPool;
+import shit.zen.event.EventTarget;
 
 public class AutoOffHand extends Module {
     public static AutoOffHand INSTANCE;

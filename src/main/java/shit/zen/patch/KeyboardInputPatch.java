@@ -1,12 +1,12 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
 import asm.patchify.annotation.Patch;
 import net.minecraft.client.player.Input;
 import net.minecraft.client.player.KeyboardInput;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.StrafeEvent;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.StrafeEvent;
 
 @Patch(KeyboardInput.class)
 public class KeyboardInputPatch extends Input {

@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import com.mojang.blaze3d.platform.GlStateManager;
 import java.nio.ByteBuffer;

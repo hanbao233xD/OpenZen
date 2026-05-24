@@ -1,9 +1,9 @@
-package sh1t.ze.event;
+package shit.zen.event;
 
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.EventMarker;
 
 public abstract class AbstractCancellable
-        implements EventMarker {
+implements EventMarker {
     private boolean cancelled;
 
     protected AbstractCancellable() {

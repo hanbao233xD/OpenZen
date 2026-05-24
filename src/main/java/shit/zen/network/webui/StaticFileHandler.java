@@ -1,4 +1,4 @@
-package sh1t.ze.network.webui;
+package shit.zen.network.webui;
 
 import com.sun.net.httpserver.HttpExchange;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.OutputStream;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Locale;
-import sh1t.ze.utils.misc.Assets;
+import shit.zen.utils.misc.Assets;
 
 public class StaticFileHandler extends AbstractHttpHandler {
     private final String resourcePath;

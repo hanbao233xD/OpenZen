@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.Patch;
 import asm.patchify.annotation.Transform;
@@ -11,9 +11,9 @@ import org.objectweb.asm.tree.AbstractInsnNode;
 import org.objectweb.asm.tree.InsnList;
 import org.objectweb.asm.tree.MethodInsnNode;
 import org.objectweb.asm.tree.MethodNode;
-import sh1t.ze.ClientBase;
-import sh1t.ze.modules.impl.render.NameProtect;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ClientBase;
+import shit.zen.modules.impl.render.NameProtect;
+import shit.zen.utils.misc.ReflectionUtil;
 
 @Patch(FriendlyByteBuf.class)
 public class FriendlyByteBufPatch extends ClientBase {

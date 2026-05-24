@@ -1,4 +1,4 @@
-package sh1t.ze.config;
+package shit.zen.config;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,11 +6,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import sh1t.ze.ZenClient;
-import sh1t.ze.config.Config;
-import sh1t.ze.exception.ModuleNotFoundException;
-import sh1t.ze.manager.ModuleManager;
-import sh1t.ze.modules.Module;
+import shit.zen.ZenClient;
+import shit.zen.config.Config;
+import shit.zen.exception.ModuleNotFoundException;
+import shit.zen.manager.ModuleManager;
+import shit.zen.modules.Module;
 
 public class ModulesConfig
 extends Config {

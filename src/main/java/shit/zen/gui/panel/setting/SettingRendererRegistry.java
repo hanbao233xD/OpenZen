@@ -1,15 +1,15 @@
-package sh1t.ze.gui.panel.setting;
+package shit.zen.gui.panel.setting;
 
 import java.util.ArrayList;
 import java.util.List;
 import net.minecraft.client.gui.GuiGraphics;
-import sh1t.ze.gui.panel.setting.BooleanSettingRenderer;
-import sh1t.ze.gui.panel.setting.ModeSettingRenderer;
-import sh1t.ze.gui.panel.setting.MultiSelectSettingRenderer;
-import sh1t.ze.gui.panel.setting.NumberSettingRenderer;
-import sh1t.ze.gui.panel.setting.SettingRenderer;
-import sh1t.ze.settings.Setting;
-import sh1t.ze.settings.impl.ModeSetting;
+import shit.zen.gui.panel.setting.BooleanSettingRenderer;
+import shit.zen.gui.panel.setting.ModeSettingRenderer;
+import shit.zen.gui.panel.setting.MultiSelectSettingRenderer;
+import shit.zen.gui.panel.setting.NumberSettingRenderer;
+import shit.zen.gui.panel.setting.SettingRenderer;
+import shit.zen.settings.Setting;
+import shit.zen.settings.impl.ModeSetting;
 
 public class SettingRendererRegistry {
     private static final SettingRendererRegistry INSTANCE;

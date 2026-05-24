@@ -1,10 +1,10 @@
-package sh1t.ze.exception;
+package shit.zen.exception;
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
 
 public class SilentException
-        extends RuntimeException {
+extends RuntimeException {
     public SilentException() {
         this.setStackTrace(new StackTraceElement[0]);
     }

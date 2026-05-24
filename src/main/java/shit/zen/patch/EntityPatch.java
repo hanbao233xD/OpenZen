@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -8,14 +8,14 @@ import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.PreTickEvent;
-import sh1t.ze.event.impl.RayTraceEvent;
-import sh1t.ze.event.impl.RotationEvent;
-import sh1t.ze.event.impl.SneakEvent;
-import sh1t.ze.event.impl.StuckInBlockEvent;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.PreTickEvent;
+import shit.zen.event.impl.RayTraceEvent;
+import shit.zen.event.impl.RotationEvent;
+import shit.zen.event.impl.SneakEvent;
+import shit.zen.event.impl.StuckInBlockEvent;
+import shit.zen.utils.misc.ReflectionUtil;
 
 @Patch(Entity.class)
 public class EntityPatch {

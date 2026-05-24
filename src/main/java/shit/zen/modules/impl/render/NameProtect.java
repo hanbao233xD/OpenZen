@@ -1,17 +1,17 @@
-package sh1t.ze.modules.impl.render;
+package shit.zen.modules.impl.render;
 
 import java.util.ArrayList;
 import java.util.Random;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.network.chat.Component;
 import org.apache.commons.lang3.StringUtils;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.ChatReceiveEvent;
-import sh1t.ze.event.impl.DisconnectEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.event.EventTarget;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.ChatReceiveEvent;
+import shit.zen.event.impl.DisconnectEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.event.EventTarget;
 
 public class NameProtect
 extends Module {

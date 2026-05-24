@@ -1,8 +1,8 @@
-package sh1t.ze.hud;
+package shit.zen.hud;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.gui.GuiGraphics;
-import sh1t.ze.render.DrawContext;
+import shit.zen.render.DrawContext;
 
 public interface IHudElement {
     enum Alignment {

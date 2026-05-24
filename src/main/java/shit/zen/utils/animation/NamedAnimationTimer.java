@@ -1,7 +1,7 @@
-package sh1t.ze.utils.animation;
+package shit.zen.utils.animation;
 
-import sh1t.ze.utils.animation.AnimationBuilder;
-import sh1t.ze.utils.animation.AnimationTimer;
+import shit.zen.utils.animation.AnimationBuilder;
+import shit.zen.utils.animation.AnimationTimer;
 
 public class NamedAnimationTimer
 extends AnimationTimer {

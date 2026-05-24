@@ -1,8 +1,8 @@
-package sh1t.ze.gui.legacy;
+package shit.zen.gui.legacy;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import sh1t.ze.gui.legacy.ModuleButton;
-import sh1t.ze.settings.Setting;
+import shit.zen.gui.legacy.ModuleButton;
+import shit.zen.settings.Setting;
 
 public class SettingComponent {
     public Setting<?> setting;

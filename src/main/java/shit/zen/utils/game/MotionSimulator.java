@@ -1,4 +1,4 @@
-package sh1t.ze.utils.game;
+package shit.zen.utils.game;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -8,8 +8,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.ClientBase;
-import sh1t.ze.utils.game.RayTraceUtil;
+import shit.zen.ClientBase;
+import shit.zen.utils.game.RayTraceUtil;
 
 public class MotionSimulator {
     public double x;

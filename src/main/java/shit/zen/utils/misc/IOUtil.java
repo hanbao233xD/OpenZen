@@ -1,4 +1,4 @@
-package sh1t.ze.utils.misc;
+package shit.zen.utils.misc;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;

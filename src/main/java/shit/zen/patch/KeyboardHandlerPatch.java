@@ -1,10 +1,10 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.Inject;
 import asm.patchify.annotation.Patch;
 import net.minecraft.client.KeyboardHandler;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.KeyEvent;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.KeyEvent;
 
 @Patch(KeyboardHandler.class)
 public class KeyboardHandlerPatch {

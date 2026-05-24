@@ -1,4 +1,4 @@
-package sh1t.ze.utils.animation;
+package shit.zen.utils.animation;
 
 import lombok.Getter;
 import lombok.Setter;

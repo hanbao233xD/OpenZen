@@ -1,6 +1,6 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.EventMarker;
 
 public class TickEvent
 implements EventMarker {

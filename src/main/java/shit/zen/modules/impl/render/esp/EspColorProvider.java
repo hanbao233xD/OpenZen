@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.render.esp;
+package shit.zen.modules.impl.render.esp;
 
 import java.awt.Color;
 import net.minecraft.world.entity.Entity;

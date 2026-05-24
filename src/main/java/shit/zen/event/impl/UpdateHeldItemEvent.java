@@ -1,11 +1,11 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.Generated;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.ItemStack;
-import sh1t.ze.event.EventMarker;
+import shit.zen.event.EventMarker;
 
 import java.util.Objects;
 

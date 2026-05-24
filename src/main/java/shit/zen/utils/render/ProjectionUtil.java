@@ -1,4 +1,4 @@
-package sh1t.ze.utils.render;
+package shit.zen.utils.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import java.lang.reflect.Method;
@@ -18,9 +18,9 @@ import org.joml.Vector3fc;
 import org.joml.Vector4f;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
-import sh1t.ze.ClientBase;
-import sh1t.ze.utils.math.Vector2f;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ClientBase;
+import shit.zen.utils.math.Vector2f;
+import shit.zen.utils.misc.ReflectionUtil;
 
 public final class ProjectionUtil
 extends ClientBase {

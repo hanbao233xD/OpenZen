@@ -1,4 +1,4 @@
-package sh1t.ze.utils.render;
+package shit.zen.utils.render;
 
 import com.mojang.blaze3d.platform.NativeImage;
 import java.io.File;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import lombok.Generated;
 import net.minecraft.client.renderer.texture.DynamicTexture;
-import sh1t.ze.manager.ConfigManager;
+import shit.zen.manager.ConfigManager;
 
 public final class TextureUtil {
     private static final Map<String, DynamicTexture> textureCache = new HashMap<>();

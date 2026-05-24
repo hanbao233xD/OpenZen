@@ -1,4 +1,4 @@
-package sh1t.ze.patch;
+package shit.zen.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -9,8 +9,8 @@ import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.renderer.LevelRenderer;
 import net.minecraft.client.renderer.LightTexture;
 import org.joml.Matrix4f;
-import sh1t.ze.ZenClient;
-import sh1t.ze.event.impl.RenderEvent;
+import shit.zen.ZenClient;
+import shit.zen.event.impl.RenderEvent;
 
 @Patch(LevelRenderer.class)
 public class LevelRendererPatch {

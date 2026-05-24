@@ -1,9 +1,9 @@
-package sh1t.ze.utils.render;
+package shit.zen.utils.render;
 
 import java.awt.Color;
 import lombok.Generated;
 import net.minecraft.world.entity.player.Player;
-import sh1t.ze.ClientBase;
+import shit.zen.ClientBase;
 
 public final class ColorUtil
 extends ClientBase {

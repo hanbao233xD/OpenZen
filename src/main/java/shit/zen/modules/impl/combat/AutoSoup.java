@@ -1,16 +1,16 @@
-package sh1t.ze.modules.impl.combat;
+package shit.zen.modules.impl.combat;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.Items;
-import sh1t.ze.event.impl.SprintEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.animation.Timer;
-import sh1t.ze.utils.game.ItemUtil;
-import sh1t.ze.utils.game.PlayerUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.SprintEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.animation.Timer;
+import shit.zen.utils.game.ItemUtil;
+import shit.zen.utils.game.PlayerUtil;
+import shit.zen.event.EventTarget;
 
 public class AutoSoup
 extends Module {

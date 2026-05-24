@@ -1,16 +1,16 @@
-package sh1t.ze.modules;
+package shit.zen.modules;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.Getter;
 import lombok.Generated;
-import sh1t.ze.ClientBase;
-import sh1t.ze.ZenClient;
-import sh1t.ze.hud.ModuleListHud;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.KeyBind;
-import sh1t.ze.settings.Setting;
+import shit.zen.ClientBase;
+import shit.zen.ZenClient;
+import shit.zen.hud.ModuleListHud;
+import shit.zen.modules.Category;
+import shit.zen.modules.KeyBind;
+import shit.zen.settings.Setting;
 
 public abstract class Module
 extends ClientBase {

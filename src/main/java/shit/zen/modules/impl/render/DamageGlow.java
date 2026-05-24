@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.render;
+package shit.zen.modules.impl.render;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -16,13 +16,13 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.event.impl.EntityHurtEvent;
-import sh1t.ze.event.impl.EntityRemoveEvent;
-import sh1t.ze.event.impl.RenderEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.EntityHurtEvent;
+import shit.zen.event.impl.EntityRemoveEvent;
+import shit.zen.event.impl.RenderEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.event.EventTarget;
 
 public class DamageGlow extends Module {
 

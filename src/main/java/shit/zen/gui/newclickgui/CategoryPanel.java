@@ -1,4 +1,4 @@
-package sh1t.ze.gui.newclickgui;
+package shit.zen.gui.newclickgui;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.awt.Color;
@@ -9,21 +9,21 @@ import lombok.Setter;
 import lombok.Generated;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.util.Mth;
-import sh1t.ze.ZenClient;
-import sh1t.ze.gui.NewClickGui;
-import sh1t.ze.gui.newclickgui.ModuleElement;
-import sh1t.ze.gui.newclickgui.SettingElement;
-import sh1t.ze.gui.newclickgui.UIElement;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.render.FontStore;
-import sh1t.ze.render.StencilHelper;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
-import sh1t.ze.utils.math.Easings;
-import sh1t.ze.utils.misc.CursorUtil;
-import sh1t.ze.utils.render.ColorUtil;
-import sh1t.ze.utils.render.RenderHelper;
-import sh1t.ze.utils.render.RenderUtil;
+import shit.zen.ZenClient;
+import shit.zen.gui.NewClickGui;
+import shit.zen.gui.newclickgui.ModuleElement;
+import shit.zen.gui.newclickgui.SettingElement;
+import shit.zen.gui.newclickgui.UIElement;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.render.FontStore;
+import shit.zen.render.StencilHelper;
+import shit.zen.utils.animation.SmoothAnimationTimer;
+import shit.zen.utils.math.Easings;
+import shit.zen.utils.misc.CursorUtil;
+import shit.zen.utils.render.ColorUtil;
+import shit.zen.utils.render.RenderHelper;
+import shit.zen.utils.render.RenderUtil;
 
 public class CategoryPanel
 extends UIElement {

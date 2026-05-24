@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.misc;
+package shit.zen.modules.impl.misc;
 
 import java.util.List;
 import net.minecraft.client.player.LocalPlayer;
@@ -8,16 +8,16 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.combat.KillAura;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.game.RotationUtil;
-import sh1t.ze.utils.math.MathUtil;
-import sh1t.ze.utils.rotation.Rotation;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.combat.KillAura;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.game.RotationUtil;
+import shit.zen.utils.math.MathUtil;
+import shit.zen.utils.rotation.Rotation;
+import shit.zen.event.EventTarget;
 
 public class AimAssist
 extends Module {

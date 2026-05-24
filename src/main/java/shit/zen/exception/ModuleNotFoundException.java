@@ -1,5 +1,5 @@
-package sh1t.ze.exception;
+package shit.zen.exception;
 
 public class ModuleNotFoundException
-        extends RuntimeException {
+extends RuntimeException {
 }

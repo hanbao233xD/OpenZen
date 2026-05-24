@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
@@ -18,9 +18,9 @@ import org.lwjgl.opengl.EXTFramebufferObject;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL13;
 import org.lwjgl.opengl.GL20;
-import sh1t.ze.ClientBase;
-import sh1t.ze.render.shader.ShaderProgram;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ClientBase;
+import shit.zen.render.shader.ShaderProgram;
+import shit.zen.utils.misc.ReflectionUtil;
 
 public class StencilHelper {
     private static final ShaderProgram stencilShader = new ShaderProgram("stencil");

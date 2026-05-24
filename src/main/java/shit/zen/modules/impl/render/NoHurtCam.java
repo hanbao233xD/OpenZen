@@ -1,12 +1,11 @@
-package sh1t.ze.modules.impl.render;
+package shit.zen.modules.impl.render;
 
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
 
 public class NoHurtCam
-        extends Module {
+extends Module {
     public static NoHurtCam INSTANCE;
-
     public NoHurtCam() {
         super("NoHurtCam", Category.RENDER);
         INSTANCE = this;

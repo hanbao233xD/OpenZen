@@ -1,13 +1,13 @@
-package sh1t.ze.gui.legacy;
+package shit.zen.gui.legacy;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.awt.Color;
-import sh1t.ze.gui.legacy.ModuleButton;
-import sh1t.ze.gui.legacy.SettingComponent;
-import sh1t.ze.render.FontStore;
-import sh1t.ze.settings.Setting;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.utils.render.RenderUtil;
+import shit.zen.gui.legacy.ModuleButton;
+import shit.zen.gui.legacy.SettingComponent;
+import shit.zen.render.FontStore;
+import shit.zen.settings.Setting;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.utils.render.RenderUtil;
 
 public class BooleanComponent
 extends SettingComponent {

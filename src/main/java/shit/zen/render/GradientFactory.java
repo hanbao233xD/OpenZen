@@ -1,6 +1,6 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
-import sh1t.ze.render.Paint.LinearGradient;
+import shit.zen.render.Paint.LinearGradient;
 
 public final class GradientFactory {
     public static Paint.LinearGradient buildLinearGradient(float[] stops, float angle) {

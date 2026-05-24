@@ -1,12 +1,12 @@
-package sh1t.ze.modules.impl.movement;
+package shit.zen.modules.impl.movement;
 
 import java.util.HashMap;
 import net.minecraft.client.KeyMapping;
-import sh1t.ze.event.impl.RotationEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.player.InventoryManager;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.RotationEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.player.InventoryManager;
+import shit.zen.event.EventTarget;
 
 public class Sprint
 extends Module {

@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.world;
+package shit.zen.modules.impl.world;
 
 import com.sun.net.httpserver.HttpServer;
 import java.awt.Desktop;
@@ -6,17 +6,17 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.URI;
 import java.net.URISyntaxException;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.network.webui.CategoriesHandler;
-import sh1t.ze.network.webui.ModulesHandler;
-import sh1t.ze.network.webui.SetSettingHandler;
-import sh1t.ze.network.webui.SettingsHandler;
-import sh1t.ze.network.webui.StaticFileHandler;
-import sh1t.ze.network.webui.ToggleModuleHandler;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.misc.ChatUtil;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.network.webui.CategoriesHandler;
+import shit.zen.network.webui.ModulesHandler;
+import shit.zen.network.webui.SetSettingHandler;
+import shit.zen.network.webui.SettingsHandler;
+import shit.zen.network.webui.StaticFileHandler;
+import shit.zen.network.webui.ToggleModuleHandler;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.misc.ChatUtil;
 
 public class WebUI extends Module {
     private HttpServer httpServer;

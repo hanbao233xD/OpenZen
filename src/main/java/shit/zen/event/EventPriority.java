@@ -1,4 +1,4 @@
-package sh1t.ze.event;
+package shit.zen.event;
 
 public final class EventPriority {
     public static final byte HIGHEST = 0;
@@ -7,5 +7,5 @@ public final class EventPriority {
     public static final byte LOW = 3;
     public static final byte LOWEST = 4;
 
-    public static final byte[] PRIORITIES = new byte[] { HIGHEST, HIGH, NORMAL, LOW, LOWEST };
+    public static final byte[] PRIORITIES = new byte[]{HIGHEST, HIGH, NORMAL, LOW, LOWEST};
 }

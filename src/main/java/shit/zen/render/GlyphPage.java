@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import com.mojang.blaze3d.platform.NativeImage;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -20,9 +20,9 @@ import net.minecraft.client.renderer.texture.DynamicTexture;
 import net.minecraft.resources.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.system.MemoryUtil;
-import sh1t.ze.ClientBase;
-import sh1t.ze.render.Glyph;
-import sh1t.ze.utils.misc.ReflectionUtil;
+import shit.zen.ClientBase;
+import shit.zen.render.Glyph;
+import shit.zen.utils.misc.ReflectionUtil;
 
 class GlyphPage {
     final char startChar;

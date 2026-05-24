@@ -1,9 +1,9 @@
-package sh1t.ze.modules.impl.render.esp;
+package shit.zen.modules.impl.render.esp;
 
 import java.awt.Color;
 import java.util.Set;
 import net.minecraft.world.entity.Entity;
-import sh1t.ze.modules.impl.render.esp.EspColorProvider;
+import shit.zen.modules.impl.render.esp.EspColorProvider;
 
 public class ClassEspColor
 implements EspColorProvider {

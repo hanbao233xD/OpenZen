@@ -1,4 +1,4 @@
-package sh1t.ze.utils.game;
+package shit.zen.utils.game;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,7 +15,7 @@ import org.joml.Quaternionfc;
 import org.joml.Vector3f;
 import org.joml.Vector4d;
 import org.joml.Vector4f;
-import sh1t.ze.ClientBase;
+import shit.zen.ClientBase;
 
 public class EntityUtil
 extends ClientBase {

@@ -1,4 +1,4 @@
-package sh1t.ze.utils.animation;
+package shit.zen.utils.animation;
 
 import java.util.ArrayList;
 import java.util.List;

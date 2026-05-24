@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 public final class RoundedRectangle {
     public final float x1;

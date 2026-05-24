@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import java.util.ArrayList;
 import java.util.List;

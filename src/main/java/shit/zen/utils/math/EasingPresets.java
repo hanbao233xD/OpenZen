@@ -1,6 +1,6 @@
-package sh1t.ze.utils.math;
+package shit.zen.utils.math;
 
-import sh1t.ze.utils.math.CubicBezier;
+import shit.zen.utils.math.CubicBezier;
 
 public class EasingPresets {
     static {

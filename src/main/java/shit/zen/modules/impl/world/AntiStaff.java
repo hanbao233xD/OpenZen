@@ -1,4 +1,4 @@
-package sh1t.ze.modules.impl.world;
+package shit.zen.modules.impl.world;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
@@ -7,11 +7,11 @@ import java.util.List;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientboundAddPlayerPacket;
 import net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket;
-import sh1t.ze.event.impl.PacketEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.utils.misc.ChatUtil;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.PacketEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.utils.misc.ChatUtil;
+import shit.zen.event.EventTarget;
 
 public class AntiStaff extends Module {
     public static AntiStaff INSTANCE;

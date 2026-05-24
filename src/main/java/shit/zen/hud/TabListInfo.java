@@ -1,4 +1,4 @@
-package sh1t.ze.hud;
+package shit.zen.hud;
 
 import net.minecraft.network.chat.Component;
 

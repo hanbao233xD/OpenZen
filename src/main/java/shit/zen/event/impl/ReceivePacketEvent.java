@@ -1,10 +1,10 @@
-package sh1t.ze.event.impl;
+package shit.zen.event.impl;
 
 import lombok.Getter;
 import lombok.Generated;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import sh1t.ze.event.Event;
+import shit.zen.event.Event;
 
 public class ReceivePacketEvent
 extends Event {

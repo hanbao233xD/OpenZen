@@ -1,11 +1,11 @@
-package sh1t.ze.utils.animation;
+package shit.zen.utils.animation;
 
 import lombok.Getter;
 import lombok.Setter;
-import sh1t.ze.utils.animation.SmoothAnimationTimer;
-import sh1t.ze.utils.math.Easing;
-import sh1t.ze.utils.math.Easings;
-import sh1t.ze.utils.render.ColorUtil;
+import shit.zen.utils.animation.SmoothAnimationTimer;
+import shit.zen.utils.math.Easing;
+import shit.zen.utils.math.Easings;
+import shit.zen.utils.render.ColorUtil;
 
 public class AnimatedColor {
     @Getter @Setter

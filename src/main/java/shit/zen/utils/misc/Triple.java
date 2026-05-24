@@ -1,4 +1,4 @@
-package sh1t.ze.utils.misc;
+package shit.zen.utils.misc;
 
 public record Triple<A, B, C>(A first, B second, C third) {
 

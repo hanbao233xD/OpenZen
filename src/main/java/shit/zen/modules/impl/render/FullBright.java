@@ -1,10 +1,10 @@
-package sh1t.ze.modules.impl.render;
+package shit.zen.modules.impl.render;
 
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.misc.Triple;
-import sh1t.ze.utils.misc.TripleProvider;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.misc.Triple;
+import shit.zen.utils.misc.TripleProvider;
 
 public class FullBright
 extends Module

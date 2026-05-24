@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 public record GlyphMetrics(float ascent, float descent, float height, float capHeight) {
 

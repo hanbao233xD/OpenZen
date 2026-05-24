@@ -1,4 +1,4 @@
-package sh1t.ze.utils.render;
+package shit.zen.utils.render;
 
 import com.mojang.blaze3d.pipeline.RenderTarget;
 import com.mojang.blaze3d.platform.NativeImage;
@@ -16,8 +16,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ShaderInstance;
 import net.minecraft.client.renderer.texture.DynamicTexture;
 import org.joml.Matrix4f;
-import sh1t.ze.ClientBase;
-import sh1t.ze.utils.render.ColorUtil;
+import shit.zen.ClientBase;
+import shit.zen.utils.render.ColorUtil;
 
 public final class RenderHelper {
     public static void blitRenderTarget(RenderTarget renderTarget, PoseStack poseStack, int width, int height) {

@@ -1,28 +1,28 @@
-package sh1t.ze.modules.impl.combat;
+package shit.zen.modules.impl.combat;
 
 import java.util.Arrays;
 import java.util.Optional;
-import sh1t.ze.event.impl.DisconnectEvent;
-import sh1t.ze.event.impl.GameTickEvent;
-import sh1t.ze.event.impl.MotionEvent;
-import sh1t.ze.event.impl.PreMotionEvent;
-import sh1t.ze.event.impl.ReceivePacketEvent;
-import sh1t.ze.event.impl.Render2DEvent;
-import sh1t.ze.event.impl.RenderEvent;
-import sh1t.ze.event.impl.RotationEvent;
-import sh1t.ze.event.impl.SprintEvent;
-import sh1t.ze.event.impl.StrafeEvent;
-import sh1t.ze.event.impl.TickEvent;
-import sh1t.ze.modules.Category;
-import sh1t.ze.modules.Module;
-import sh1t.ze.modules.impl.combat.antikb.AntiKBMode;
-import sh1t.ze.modules.impl.movement.FireballBlink;
-import sh1t.ze.modules.impl.movement.HighJump;
-import sh1t.ze.settings.impl.BooleanSetting;
-import sh1t.ze.settings.impl.ModeSetting;
-import sh1t.ze.settings.impl.NumberSetting;
-import sh1t.ze.utils.rotation.Rotation;
-import sh1t.ze.event.EventTarget;
+import shit.zen.event.impl.DisconnectEvent;
+import shit.zen.event.impl.GameTickEvent;
+import shit.zen.event.impl.MotionEvent;
+import shit.zen.event.impl.PreMotionEvent;
+import shit.zen.event.impl.ReceivePacketEvent;
+import shit.zen.event.impl.Render2DEvent;
+import shit.zen.event.impl.RenderEvent;
+import shit.zen.event.impl.RotationEvent;
+import shit.zen.event.impl.SprintEvent;
+import shit.zen.event.impl.StrafeEvent;
+import shit.zen.event.impl.TickEvent;
+import shit.zen.modules.Category;
+import shit.zen.modules.Module;
+import shit.zen.modules.impl.combat.antikb.AntiKBMode;
+import shit.zen.modules.impl.movement.FireballBlink;
+import shit.zen.modules.impl.movement.HighJump;
+import shit.zen.settings.impl.BooleanSetting;
+import shit.zen.settings.impl.ModeSetting;
+import shit.zen.settings.impl.NumberSetting;
+import shit.zen.utils.rotation.Rotation;
+import shit.zen.event.EventTarget;
 
 public class AntiKB
 extends Module {

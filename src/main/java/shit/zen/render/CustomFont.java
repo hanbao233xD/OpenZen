@@ -1,4 +1,4 @@
-package sh1t.ze.render;
+package shit.zen.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.BufferBuilder;
@@ -29,8 +29,8 @@ import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.joml.Matrix4f;
-import sh1t.ze.ClientBase;
-import sh1t.ze.utils.math.MathUtil;
+import shit.zen.ClientBase;
+import shit.zen.utils.math.MathUtil;
 
 public class CustomFont
 implements Closeable {

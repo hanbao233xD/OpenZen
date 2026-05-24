@@ -1,4 +1,4 @@
-package sh1t.ze.manager;
+package shit.zen.manager;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,10 +12,10 @@ import java.util.ArrayList;
 import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import sh1t.ze.ZenClient;
-import sh1t.ze.config.Config;
-import sh1t.ze.config.ModulesConfig;
-import sh1t.ze.config.ValuesConfig;
+import shit.zen.ZenClient;
+import shit.zen.config.Config;
+import shit.zen.config.ModulesConfig;
+import shit.zen.config.ValuesConfig;
 
 public class ConfigManager {
     public static final Logger LOGGER = LogManager.getLogger("ConfigManager");
