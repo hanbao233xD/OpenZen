@@ -1,12 +1,12 @@
-package shit.zen.patch;
+package sh1t.ze.patch;
 
 import asm.patchify.annotation.Patch;
 import asm.patchify.annotation.Slice;
 import asm.patchify.annotation.WrapInvoke;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.world.entity.Entity;
-import shit.zen.ClientBase;
-import shit.zen.asm.Invocation;
+import sh1t.ze.ClientBase;
+import sh1t.ze.asm.Invocation;
 
 @Patch(ClientLevel.class)
 public class ClientLevelPatch {

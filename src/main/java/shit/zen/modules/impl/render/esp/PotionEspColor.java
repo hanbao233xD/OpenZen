@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.render.esp;
+package sh1t.ze.modules.impl.render.esp;
 
 import java.awt.Color;
 import java.util.Collection;
@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import net.minecraft.world.entity.projectile.ThrownPotion;
-import shit.zen.modules.impl.render.esp.ClassEspColor;
+import sh1t.ze.modules.impl.render.esp.ClassEspColor;
 
 public class PotionEspColor
 extends ClassEspColor {

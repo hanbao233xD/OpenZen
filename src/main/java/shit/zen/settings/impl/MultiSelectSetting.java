@@ -1,4 +1,4 @@
-package shit.zen.settings.impl;
+package sh1t.ze.settings.impl;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -8,8 +8,8 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import lombok.Getter;
-import shit.zen.settings.Setting;
-import shit.zen.settings.SettingVisibility;
+import sh1t.ze.settings.Setting;
+import sh1t.ze.settings.SettingVisibility;
 
 public class MultiSelectSetting
 extends Setting<List<String>> {

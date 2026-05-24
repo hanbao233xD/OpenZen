@@ -1,10 +1,10 @@
-package shit.zen.settings.impl;
+package sh1t.ze.settings.impl;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import lombok.Getter;
-import shit.zen.settings.Setting;
-import shit.zen.settings.SettingVisibility;
+import sh1t.ze.settings.Setting;
+import sh1t.ze.settings.SettingVisibility;
 
 public class NumberSetting
 extends Setting<Number> {

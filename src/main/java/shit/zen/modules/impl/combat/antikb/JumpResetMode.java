@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.combat.antikb;
+package sh1t.ze.modules.impl.combat.antikb;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import java.util.concurrent.LinkedBlockingDeque;
@@ -9,21 +9,21 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket;
 import net.minecraft.network.protocol.game.ClientboundSetTimePacket;
 import net.minecraft.network.protocol.game.ClientboundSystemChatPacket;
-import shit.zen.event.impl.DisconnectEvent;
-import shit.zen.event.impl.GameTickEvent;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PreMotionEvent;
-import shit.zen.event.impl.ReceivePacketEvent;
-import shit.zen.event.impl.RotationEvent;
-import shit.zen.event.impl.SprintEvent;
-import shit.zen.event.impl.StrafeEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.modules.impl.combat.AntiKB;
-import shit.zen.modules.impl.combat.Backtrack;
-import shit.zen.modules.impl.movement.Scaffold;
-import shit.zen.modules.impl.player.NoFall;
-import shit.zen.utils.rotation.Rotation;
-import shit.zen.utils.rotation.RotationHandler;
+import sh1t.ze.event.impl.DisconnectEvent;
+import sh1t.ze.event.impl.GameTickEvent;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PreMotionEvent;
+import sh1t.ze.event.impl.ReceivePacketEvent;
+import sh1t.ze.event.impl.RotationEvent;
+import sh1t.ze.event.impl.SprintEvent;
+import sh1t.ze.event.impl.StrafeEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.modules.impl.combat.AntiKB;
+import sh1t.ze.modules.impl.combat.Backtrack;
+import sh1t.ze.modules.impl.movement.Scaffold;
+import sh1t.ze.modules.impl.player.NoFall;
+import sh1t.ze.utils.rotation.Rotation;
+import sh1t.ze.utils.rotation.RotationHandler;
 
 public class JumpResetMode extends AntiKBMode {
     public static volatile boolean isJumping = false;

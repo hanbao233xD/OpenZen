@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.movement;
+package sh1t.ze.modules.impl.movement;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -11,17 +11,17 @@ import net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import org.lwjgl.glfw.GLFW;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.event.impl.SprintEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.utils.game.MovementUtil;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.utils.render.RenderUtil;
-import shit.zen.utils.rotation.Rotation;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.event.impl.SprintEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.utils.game.MovementUtil;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.utils.render.RenderUtil;
+import sh1t.ze.utils.rotation.Rotation;
+import sh1t.ze.event.EventTarget;
 
 public class FireballBlink extends Module {
     public static FireballBlink INSTANCE;

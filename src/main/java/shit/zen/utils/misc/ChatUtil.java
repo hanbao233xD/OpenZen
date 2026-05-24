@@ -1,9 +1,9 @@
-package shit.zen.utils.misc;
+package sh1t.ze.utils.misc;
 
 import lombok.Generated;
 import net.minecraft.client.gui.components.ChatComponent;
 import net.minecraft.network.chat.Component;
-import shit.zen.ClientBase;
+import sh1t.ze.ClientBase;
 
 public final class ChatUtil
 extends ClientBase {

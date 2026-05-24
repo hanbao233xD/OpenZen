@@ -1,14 +1,14 @@
-package shit.zen.gui;
+package sh1t.ze.gui;
 
 import java.util.ArrayList;
 import java.util.List;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import shit.zen.ZenClient;
-import shit.zen.gui.legacy.CategoryPanel;
-import shit.zen.gui.legacy.ModuleButton;
-import shit.zen.modules.Category;
+import sh1t.ze.ZenClient;
+import sh1t.ze.gui.legacy.CategoryPanel;
+import sh1t.ze.gui.legacy.ModuleButton;
+import sh1t.ze.modules.Category;
 
 public class OldClickGui
 extends Screen {

@@ -1,4 +1,4 @@
-package shit.zen.utils.misc;
+package sh1t.ze.utils.misc;
 
 import java.io.File;
 import java.io.FileInputStream;

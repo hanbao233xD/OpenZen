@@ -1,4 +1,4 @@
-package shit.zen.patch;
+package sh1t.ze.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -9,8 +9,8 @@ import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
-import shit.zen.ZenClient;
-import shit.zen.modules.impl.render.NameTags;
+import sh1t.ze.ZenClient;
+import sh1t.ze.modules.impl.render.NameTags;
 
 @Patch(EntityRenderer.class)
 public class EntityRendererPatch {

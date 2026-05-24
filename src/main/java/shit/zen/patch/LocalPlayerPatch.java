@@ -1,4 +1,4 @@
-package shit.zen.patch;
+package sh1t.ze.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -16,12 +16,12 @@ import org.objectweb.asm.tree.JumpInsnNode;
 import org.objectweb.asm.tree.MethodInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 import org.objectweb.asm.tree.VarInsnNode;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.GameTickEvent;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.SlowdownEvent;
-import shit.zen.event.impl.SprintEvent;
-import shit.zen.utils.misc.ReflectionUtil;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.GameTickEvent;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.SlowdownEvent;
+import sh1t.ze.event.impl.SprintEvent;
+import sh1t.ze.utils.misc.ReflectionUtil;
 
 @Patch(LocalPlayer.class)
 public class LocalPlayerPatch {

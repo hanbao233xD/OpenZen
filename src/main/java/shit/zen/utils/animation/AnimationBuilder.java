@@ -1,11 +1,11 @@
-package shit.zen.utils.animation;
+package sh1t.ze.utils.animation;
 
 import java.util.LinkedList;
 import java.util.Optional;
-import shit.zen.utils.animation.AnimationTimer;
-import shit.zen.utils.animation.NamedAnimationTimer;
-import shit.zen.utils.math.Easing;
-import shit.zen.utils.math.Easings;
+import sh1t.ze.utils.animation.AnimationTimer;
+import sh1t.ze.utils.animation.NamedAnimationTimer;
+import sh1t.ze.utils.math.Easing;
+import sh1t.ze.utils.math.Easings;
 
 public class AnimationBuilder {
     private final LinkedList<NamedAnimationTimer> timers = new LinkedList<>();

@@ -1,14 +1,14 @@
-package shit.zen.modules.impl.render;
+package sh1t.ze.modules.impl.render;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.HumanoidArm;
 import org.joml.Quaternionf;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.modules.impl.combat.KillAura;
-import shit.zen.settings.impl.ModeSetting;
-import shit.zen.settings.impl.NumberSetting;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.modules.impl.combat.KillAura;
+import sh1t.ze.settings.impl.ModeSetting;
+import sh1t.ze.settings.impl.NumberSetting;
 
 public class OldHitting
 extends Module {

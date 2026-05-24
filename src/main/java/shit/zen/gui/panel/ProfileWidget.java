@@ -1,4 +1,4 @@
-package shit.zen.gui.panel;
+package sh1t.ze.gui.panel;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -6,17 +6,17 @@ import java.util.List;
 import java.util.function.Consumer;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.player.AbstractClientPlayer;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.gui.panel.SettingsPopup;
-import shit.zen.render.DrawContext;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.render.Renderer;
-import shit.zen.render.TextGlow;
-import shit.zen.utils.math.LerpUtil;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.gui.panel.SettingsPopup;
+import sh1t.ze.render.DrawContext;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.render.Renderer;
+import sh1t.ze.render.TextGlow;
+import sh1t.ze.utils.math.LerpUtil;
+import sh1t.ze.utils.render.RenderUtil;
 
 public class ProfileWidget
 extends ClientBase {

@@ -1,4 +1,4 @@
-package shit.zen.utils.game;
+package sh1t.ze.utils.game;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -11,8 +11,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import shit.zen.utils.game.ItemUtil;
-import shit.zen.utils.misc.ChatUtil;
+import sh1t.ze.utils.game.ItemUtil;
+import sh1t.ze.utils.misc.ChatUtil;
 
 public class ItemAlertTracker {
     private static final Map<UUID, Integer> trackedItems;

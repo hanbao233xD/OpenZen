@@ -1,19 +1,19 @@
-package shit.zen.hud;
+package sh1t.ze.hud;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.awt.Color;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
-import shit.zen.ClientBase;
-import shit.zen.modules.impl.movement.Scaffold;
-import shit.zen.render.DrawContext;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.Paint;
-import shit.zen.render.RoundedRectangle;
-import shit.zen.utils.animation.SpringAnimation;
-import shit.zen.utils.game.MovementUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.modules.impl.movement.Scaffold;
+import sh1t.ze.render.DrawContext;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.Paint;
+import sh1t.ze.render.RoundedRectangle;
+import sh1t.ze.utils.animation.SpringAnimation;
+import sh1t.ze.utils.game.MovementUtil;
 
 public class ScaffoldHud
 extends ClientBase

@@ -1,8 +1,8 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
 import lombok.*;
 import net.minecraft.world.entity.Entity;
-import shit.zen.event.EventMarker;
+import sh1t.ze.event.EventMarker;
 
 import java.util.Objects;
 

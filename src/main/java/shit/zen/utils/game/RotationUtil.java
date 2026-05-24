@@ -1,4 +1,4 @@
-package shit.zen.utils.game;
+package sh1t.ze.utils.game;
 
 import java.util.Iterator;
 import java.util.List;
@@ -17,10 +17,10 @@ import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
 import org.antlr.v4.runtime.misc.OrderedHashSet;
-import shit.zen.ClientBase;
-import shit.zen.utils.math.MathUtil;
-import shit.zen.utils.rotation.Rotation;
-import shit.zen.utils.rotation.RotationHandler;
+import sh1t.ze.ClientBase;
+import sh1t.ze.utils.math.MathUtil;
+import sh1t.ze.utils.rotation.Rotation;
+import sh1t.ze.utils.rotation.RotationHandler;
 
 public final class RotationUtil
 extends ClientBase {

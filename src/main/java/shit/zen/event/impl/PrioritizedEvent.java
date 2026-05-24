@@ -1,7 +1,7 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
-import shit.zen.event.EventMarker;
-import shit.zen.event.Prioritized;
+import sh1t.ze.event.EventMarker;
+import sh1t.ze.event.Prioritized;
 
 public abstract class PrioritizedEvent
 implements Prioritized,

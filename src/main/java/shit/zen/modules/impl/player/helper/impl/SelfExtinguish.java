@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.player.helper.impl;
+package sh1t.ze.modules.impl.player.helper.impl;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -17,16 +17,16 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.common.ForgeHooks;
 import net.minecraftforge.event.ForgeEventFactory;
-import shit.zen.event.impl.PreMotionEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.modules.impl.player.Helper;
-import shit.zen.modules.impl.player.helper.HelperBase;
-import shit.zen.utils.game.ItemUtil;
-import shit.zen.utils.game.PlayerUtil;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.utils.misc.PacketUtil;
-import shit.zen.utils.misc.ReflectionUtil;
-import shit.zen.utils.rotation.Rotation;
+import sh1t.ze.event.impl.PreMotionEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.modules.impl.player.Helper;
+import sh1t.ze.modules.impl.player.helper.HelperBase;
+import sh1t.ze.utils.game.ItemUtil;
+import sh1t.ze.utils.game.PlayerUtil;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.utils.misc.PacketUtil;
+import sh1t.ze.utils.misc.ReflectionUtil;
+import sh1t.ze.utils.rotation.Rotation;
 
 public class SelfExtinguish
 extends HelperBase {

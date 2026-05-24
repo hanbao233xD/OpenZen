@@ -1,15 +1,15 @@
-package shit.zen.gui.legacy;
+package sh1t.ze.gui.legacy;
 
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 import net.minecraft.client.gui.GuiGraphics;
-import shit.zen.ZenClient;
-import shit.zen.gui.legacy.ModuleButton;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.render.FontStore;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.ZenClient;
+import sh1t.ze.gui.legacy.ModuleButton;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.render.FontStore;
+import sh1t.ze.utils.render.RenderUtil;
 
 public class CategoryPanel {
     public int x;

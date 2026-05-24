@@ -1,11 +1,11 @@
-package shit.zen.dll;
+package sh1t.ze.dll;
 
 import asm.patchify.loader.PatchAgent;
 import net.minecraft.client.Minecraft;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import shit.zen.ZenClient;
-import shit.zen.asm.Bootstrap;
+import sh1t.ze.ZenClient;
+import sh1t.ze.asm.Bootstrap;
 
 /**
  * Final hand-off step on the DLL injection path. By the time {@link #start} is

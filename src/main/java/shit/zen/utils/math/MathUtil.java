@@ -1,11 +1,11 @@
-package shit.zen.utils.math;
+package sh1t.ze.utils.math;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.security.SecureRandom;
 import java.util.Random;
 import lombok.Generated;
-import shit.zen.ClientBase;
+import sh1t.ze.ClientBase;
 
 public final class MathUtil
 extends ClientBase {

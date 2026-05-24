@@ -1,9 +1,9 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.Generated;
-import shit.zen.event.EventMarker;
+import sh1t.ze.event.EventMarker;
 
 public class RotationEvent
 implements EventMarker {

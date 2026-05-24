@@ -1,11 +1,11 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.Generated;
 import net.minecraft.network.chat.Component;
-import shit.zen.event.EventMarker;
-import shit.zen.event.impl.ChatReceiveEvent.MessageType;
+import sh1t.ze.event.EventMarker;
+import sh1t.ze.event.impl.ChatReceiveEvent.MessageType;
 
 public class ChatReceiveEvent
 implements EventMarker {

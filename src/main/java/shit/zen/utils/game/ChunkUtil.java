@@ -1,11 +1,11 @@
-package shit.zen.utils.game;
+package sh1t.ze.utils.game;
 
 import java.util.Objects;
 import java.util.stream.Stream;
 import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.chunk.LevelChunk;
-import shit.zen.ClientBase;
+import sh1t.ze.ClientBase;
 
 public final class ChunkUtil extends ClientBase {
     public static Stream<BlockEntity> getLoadedBlockEntities() {

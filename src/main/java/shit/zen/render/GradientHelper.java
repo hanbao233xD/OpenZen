@@ -1,6 +1,6 @@
-package shit.zen.render;
+package sh1t.ze.render;
 
-import shit.zen.render.Paint.GradientCoords;
+import sh1t.ze.render.Paint.GradientCoords;
 
 public final class GradientHelper {
     public static Paint.GradientCoords createLinearGradientEx(float x1, float y1, float x2, float y2, int[] colors, float[] stops, Object tileMode) {

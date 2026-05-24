@@ -1,4 +1,4 @@
-package shit.zen.gui.legacy;
+package sh1t.ze.gui.legacy;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -6,23 +6,23 @@ import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import shit.zen.gui.legacy.BooleanComponent;
-import shit.zen.gui.legacy.CategoryPanel;
-import shit.zen.gui.legacy.ModeComponent;
-import shit.zen.gui.legacy.MultiSelectComponent;
-import shit.zen.gui.legacy.NumberComponent;
-import shit.zen.gui.legacy.SettingComponent;
-import shit.zen.modules.Module;
-import shit.zen.render.FontStore;
-import shit.zen.settings.Setting;
-import shit.zen.settings.impl.BooleanSetting;
-import shit.zen.settings.impl.ModeSetting;
-import shit.zen.settings.impl.MultiSelectSetting;
-import shit.zen.settings.impl.NumberSetting;
-import shit.zen.utils.animation.SmoothAnimationTimer;
-import shit.zen.utils.math.Easings;
-import shit.zen.utils.render.ColorUtil;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.gui.legacy.BooleanComponent;
+import sh1t.ze.gui.legacy.CategoryPanel;
+import sh1t.ze.gui.legacy.ModeComponent;
+import sh1t.ze.gui.legacy.MultiSelectComponent;
+import sh1t.ze.gui.legacy.NumberComponent;
+import sh1t.ze.gui.legacy.SettingComponent;
+import sh1t.ze.modules.Module;
+import sh1t.ze.render.FontStore;
+import sh1t.ze.settings.Setting;
+import sh1t.ze.settings.impl.BooleanSetting;
+import sh1t.ze.settings.impl.ModeSetting;
+import sh1t.ze.settings.impl.MultiSelectSetting;
+import sh1t.ze.settings.impl.NumberSetting;
+import sh1t.ze.utils.animation.SmoothAnimationTimer;
+import sh1t.ze.utils.math.Easings;
+import sh1t.ze.utils.render.ColorUtil;
+import sh1t.ze.utils.render.RenderUtil;
 
 public class ModuleButton {
     public Module module;

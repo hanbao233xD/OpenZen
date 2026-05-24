@@ -1,4 +1,4 @@
-package shit.zen.render;
+package sh1t.ze.render;
 
 import java.awt.Color;
 import java.util.HashMap;
@@ -9,8 +9,8 @@ import net.minecraft.client.renderer.texture.AbstractTexture;
 import net.minecraft.resources.ResourceLocation;
 import org.joml.Matrix4f;
 import org.lwjgl.opengl.GL11;
-import shit.zen.ClientBase;
-import shit.zen.utils.render.ColorUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.utils.render.ColorUtil;
 
 public final class GlHelper {
     private static final Map<FontRenderer, Map<String, Float>> stringWidthCache = new HashMap<>();

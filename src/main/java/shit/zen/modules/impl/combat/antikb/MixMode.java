@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.combat.antikb;
+package sh1t.ze.modules.impl.combat.antikb;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import java.util.concurrent.LinkedBlockingDeque;
@@ -12,22 +12,22 @@ import net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket;
 import net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket;
 import net.minecraft.util.Mth;
 import net.minecraft.world.level.block.Blocks;
-import shit.zen.event.impl.DisconnectEvent;
-import shit.zen.event.impl.GameTickEvent;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PreMotionEvent;
-import shit.zen.event.impl.ReceivePacketEvent;
-import shit.zen.event.impl.RotationEvent;
-import shit.zen.event.impl.SprintEvent;
-import shit.zen.event.impl.StrafeEvent;
-import shit.zen.event.impl.StuckInBlockEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.modules.impl.combat.AntiKB;
-import shit.zen.modules.impl.combat.KillAura;
-import shit.zen.modules.impl.movement.Scaffold;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.utils.rotation.Rotation;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.DisconnectEvent;
+import sh1t.ze.event.impl.GameTickEvent;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PreMotionEvent;
+import sh1t.ze.event.impl.ReceivePacketEvent;
+import sh1t.ze.event.impl.RotationEvent;
+import sh1t.ze.event.impl.SprintEvent;
+import sh1t.ze.event.impl.StrafeEvent;
+import sh1t.ze.event.impl.StuckInBlockEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.modules.impl.combat.AntiKB;
+import sh1t.ze.modules.impl.combat.KillAura;
+import sh1t.ze.modules.impl.movement.Scaffold;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.utils.rotation.Rotation;
+import sh1t.ze.event.EventTarget;
 
 public class MixMode
 extends AntiKBMode {

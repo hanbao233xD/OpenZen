@@ -1,10 +1,10 @@
-package shit.zen.command.impl;
+package sh1t.ze.command.impl;
 
 import java.io.IOException;
-import shit.zen.ZenClient;
-import shit.zen.command.Command;
-import shit.zen.manager.ConfigManager;
-import shit.zen.utils.misc.ChatUtil;
+import sh1t.ze.ZenClient;
+import sh1t.ze.command.Command;
+import sh1t.ze.manager.ConfigManager;
+import sh1t.ze.utils.misc.ChatUtil;
 
 public class ConfigCommand extends Command {
     public ConfigCommand() {

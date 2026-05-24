@@ -35,28 +35,36 @@ import org.objectweb.asm.tree.LdcInsnNode;
 import org.objectweb.asm.tree.MethodInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 import org.objectweb.asm.tree.VarInsnNode;
-import shit.zen.asm.Bootstrap;
-import shit.zen.asm.ILocals;
-import shit.zen.asm.Invocation;
-import shit.zen.asm.InvocationImpl;
-import shit.zen.asm.Locals;
-import shit.zen.asm.MethodWrapper;
-import shit.zen.patch.CallbackInfo;
+import sh1t.ze.asm.Bootstrap;
+import sh1t.ze.asm.ILocals;
+import sh1t.ze.asm.Invocation;
+import sh1t.ze.asm.InvocationImpl;
+import sh1t.ze.asm.Locals;
+import sh1t.ze.asm.MethodWrapper;
+import sh1t.ze.patch.CallbackInfo;
 
 /**
- * Applies all {@link Patch}-annotated handlers from a patch class to a target {@link ClassNode}.
- * Ported from <a href="https://github.com/xiaojiang233/izmk-reborn">izmk-reborn</a>'s
+ * Applies all {@link Patch}-annotated handlers from a patch class to a target
+ * {@link ClassNode}.
+ * Ported from
+ * <a href="https://github.com/xiaojiang233/izmk-reborn">izmk-reborn</a>'s
  * {@code PatchLoader}.
  *
- * <p>Supports:</p>
+ * <p>
+ * Supports:
+ * </p>
  * <ul>
- *     <li>{@link Inject} with {@link At.Type#HEAD}/{@link At.Type#TAIL}/
- *         {@link At.Type#BEFORE_INVOKE}/{@link At.Type#AFTER_INVOKE} + {@link Slice}</li>
- *     <li>{@link Overwrite}</li>
- *     <li>{@link Transform} — direct {@link MethodNode} access for hand-written ASM</li>
- *     <li>{@link WrapInvoke} — wrap an {@code INVOKE} with an {@link Invocation} continuation</li>
- *     <li>{@link ModifyLocals} — read/write local slots via {@link ILocals}</li>
- *     <li>{@link Local} — pass a method-local slot directly to a handler parameter</li>
+ * <li>{@link Inject} with {@link At.Type#HEAD}/{@link At.Type#TAIL}/
+ * {@link At.Type#BEFORE_INVOKE}/{@link At.Type#AFTER_INVOKE} +
+ * {@link Slice}</li>
+ * <li>{@link Overwrite}</li>
+ * <li>{@link Transform} — direct {@link MethodNode} access for hand-written
+ * ASM</li>
+ * <li>{@link WrapInvoke} — wrap an {@code INVOKE} with an {@link Invocation}
+ * continuation</li>
+ * <li>{@link ModifyLocals} — read/write local slots via {@link ILocals}</li>
+ * <li>{@link Local} — pass a method-local slot directly to a handler
+ * parameter</li>
  * </ul>
  */
 public final class PatchTransformer {
@@ -86,7 +94,8 @@ public final class PatchTransformer {
         for (MethodNode method : target.methods) {
             MethodKey key = new MethodKey(method.name, method.desc);
             List<Method> handlers = handlersByTarget.get(key);
-            if (handlers == null) continue;
+            if (handlers == null)
+                continue;
             matched.add(key);
             for (Method handler : handlers) {
                 if (handler.isAnnotationPresent(Inject.class)) {
@@ -114,9 +123,11 @@ public final class PatchTransformer {
             }
         }
         for (Map.Entry<MethodKey, List<Method>> entry : handlersByTarget.entrySet()) {
-            if (matched.contains(entry.getKey())) continue;
+            if (matched.contains(entry.getKey()))
+                continue;
             for (Method handler : entry.getValue()) {
-                LOGGER.warn("Patch handler {}#{}{} targets {}#{}{} but no such method exists on {} — handler will not run.",
+                LOGGER.warn(
+                        "Patch handler {}#{}{} targets {}#{}{} but no such method exists on {} — handler will not run.",
                         handler.getDeclaringClass().getName(), handler.getName(), Type.getMethodDescriptor(handler),
                         target.name, entry.getKey().name(), entry.getKey().desc(), target.name);
             }
@@ -124,8 +135,8 @@ public final class PatchTransformer {
     }
 
     private static void collectHandler(Class<?> patchClass, String patchTargetOwner,
-                                       Method handler,
-                                       Map<MethodKey, List<Method>> handlersByTarget) {
+            Method handler,
+            Map<MethodKey, List<Method>> handlersByTarget) {
         if (!(handler.isAnnotationPresent(Inject.class)
                 || handler.isAnnotationPresent(Overwrite.class)
                 || handler.isAnnotationPresent(Transform.class)
@@ -273,7 +284,8 @@ public final class PatchTransformer {
         List<AbstractInsnNode> returnInsns = collectInjectionPoints(method.instructions, slice,
                 insn -> insn.getOpcode() == returnOp);
         if (returnInsns.isEmpty()) {
-            LOGGER.warn("@Inject(TAIL) {}#{}{} found no return instruction in target {}{} — patch handler will not run.",
+            LOGGER.warn(
+                    "@Inject(TAIL) {}#{}{} found no return instruction in target {}{} — patch handler will not run.",
                     handler.getDeclaringClass().getName(), handler.getName(), Type.getMethodDescriptor(handler),
                     method.name, method.desc);
             return;
@@ -297,7 +309,8 @@ public final class PatchTransformer {
             insns.add(new MethodInsnNode(Opcodes.INVOKESTATIC, CALLBACK_INFO, "create",
                     "(Ljava/lang/Object;)" + CALLBACK_INFO_DESC, false));
 
-            // Forward (this, args..., @Local..., CallbackInfo) to handler. CallbackInfo is on top of stack now.
+            // Forward (this, args..., @Local..., CallbackInfo) to handler. CallbackInfo is
+            // on top of stack now.
             int slot = 0;
             if (!Modifier.isStatic(method.access)) {
                 insns.add(new VarInsnNode(Opcodes.ALOAD, slot++));
@@ -310,7 +323,8 @@ public final class PatchTransformer {
             }
             for (Parameter param : handler.getParameters()) {
                 Local local = param.getAnnotation(Local.class);
-                if (local == null) continue;
+                if (local == null)
+                    continue;
                 Type type = Type.getType(param.getType());
                 insns.add(new VarInsnNode(type.getOpcode(Opcodes.ILOAD), local.value()));
                 swapForCallback(type, insns);
@@ -335,7 +349,7 @@ public final class PatchTransformer {
     }
 
     private static void injectAroundInvoke(MethodNode method, Method handler,
-                                           String invokeName, String invokeDesc, boolean before) {
+            String invokeName, String invokeDesc, boolean before) {
         Type returnType = Type.getReturnType(method.desc);
         String[] split = ASMHelpers.splitOwnerName(invokeName);
         String invokeOwner = split[0];
@@ -378,10 +392,12 @@ public final class PatchTransformer {
             }
             for (Parameter param : handler.getParameters()) {
                 Local local = param.getAnnotation(Local.class);
-                if (local == null) continue;
+                if (local == null)
+                    continue;
                 if (!initializedLocals.contains(local.value())) {
-                    throw new IllegalArgumentException("@Local index " + local.value() + " not initialized before injection point in "
-                            + handler.getDeclaringClass().getName() + "." + handler.getName());
+                    throw new IllegalArgumentException(
+                            "@Local index " + local.value() + " not initialized before injection point in "
+                                    + handler.getDeclaringClass().getName() + "." + handler.getName());
                 }
                 Type type = Type.getType(param.getType());
                 insns.add(new VarInsnNode(type.getOpcode(Opcodes.ILOAD), local.value()));
@@ -527,7 +543,8 @@ public final class PatchTransformer {
             insns.add(new LdcInsnNode(targetDesc));
             insns.add(new MethodInsnNode(Opcodes.INVOKESTATIC,
                     Type.getInternalName(MethodWrapper.class), "getInstance",
-                    "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)" + Type.getDescriptor(MethodWrapper.class),
+                    "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"
+                            + Type.getDescriptor(MethodWrapper.class),
                     false));
             insns.add(new VarInsnNode(Opcodes.ASTORE, wrapperLocal));
 
@@ -544,7 +561,8 @@ public final class PatchTransformer {
                 insns.add(new InsnNode(Opcodes.POP));
             }
 
-            // Build the InvocationImpl. For non-static calls the receiver is still on the stack.
+            // Build the InvocationImpl. For non-static calls the receiver is still on the
+            // stack.
             insns.add(new VarInsnNode(Opcodes.ALOAD, wrapperLocal));
             if (staticCall) {
                 insns.add(new MethodInsnNode(Opcodes.INVOKESTATIC,
@@ -554,7 +572,8 @@ public final class PatchTransformer {
             } else {
                 insns.add(new MethodInsnNode(Opcodes.INVOKESTATIC,
                         Type.getInternalName(InvocationImpl.class), "create",
-                        "(Ljava/lang/Object;" + Type.getDescriptor(MethodWrapper.class) + ")" + Type.getDescriptor(InvocationImpl.class),
+                        "(Ljava/lang/Object;" + Type.getDescriptor(MethodWrapper.class) + ")"
+                                + Type.getDescriptor(InvocationImpl.class),
                         false));
             }
             // Stack now: [..., Invocation]
@@ -573,9 +592,11 @@ public final class PatchTransformer {
             }
             for (Parameter param : handler.getParameters()) {
                 Local local = param.getAnnotation(Local.class);
-                if (local == null) continue;
+                if (local == null)
+                    continue;
                 if (!initializedLocals.contains(local.value())) {
-                    throw new IllegalArgumentException("@Local index " + local.value() + " not initialized in " + handler);
+                    throw new IllegalArgumentException(
+                            "@Local index " + local.value() + " not initialized in " + handler);
                 }
                 Type type = Type.getType(param.getType());
                 insns.add(new VarInsnNode(type.getOpcode(Opcodes.ILOAD), local.value()));
@@ -621,7 +642,8 @@ public final class PatchTransformer {
                         foundAnchor = true;
                         break;
                     }
-                    if (insn instanceof VarInsnNode v && v.getOpcode() >= Opcodes.ISTORE && v.getOpcode() <= Opcodes.ASTORE) {
+                    if (insn instanceof VarInsnNode v && v.getOpcode() >= Opcodes.ISTORE
+                            && v.getOpcode() <= Opcodes.ASTORE) {
                         initializedLocals.add(v.var);
                     }
                 }
@@ -637,13 +659,15 @@ public final class PatchTransformer {
                         foundAnchor = true;
                         break;
                     }
-                    if (insn instanceof VarInsnNode v && v.getOpcode() >= Opcodes.ISTORE && v.getOpcode() <= Opcodes.ASTORE) {
+                    if (insn instanceof VarInsnNode v && v.getOpcode() >= Opcodes.ISTORE
+                            && v.getOpcode() <= Opcodes.ASTORE) {
                         initializedLocals.add(v.var);
                     }
                 }
             }
             if (!foundAnchor) {
-                LOGGER.warn("@ModifyLocals {}#{}{} found no anchor {} {}{} in target {}{} — patch handler will not run.",
+                LOGGER.warn(
+                        "@ModifyLocals {}#{}{} found no anchor {} {}{} in target {}{} — patch handler will not run.",
                         handler.getDeclaringClass().getName(), handler.getName(), Type.getMethodDescriptor(handler),
                         at.value(), at.method(), at.desc(),
                         method.name, method.desc);
@@ -704,7 +728,7 @@ public final class PatchTransformer {
     }
 
     private static List<AbstractInsnNode> collectInjectionPoints(InsnList insns, Slice slice,
-                                                                  Predicate<AbstractInsnNode> filter) {
+            Predicate<AbstractInsnNode> filter) {
         boolean defaultStart = slice.start().value() == At.Type.HEAD;
         boolean defaultEnd = slice.end().value() == At.Type.TAIL;
         boolean indexed = slice.startIndex() != -1 || slice.endIndex() != -1;
@@ -712,7 +736,8 @@ public final class PatchTransformer {
 
         if (defaultStart && defaultEnd && !indexed) {
             for (AbstractInsnNode insn : insns) {
-                if (filter.test(insn)) matches.add(insn);
+                if (filter.test(insn))
+                    matches.add(insn);
             }
             return matches;
         }
@@ -721,7 +746,8 @@ public final class PatchTransformer {
             int endIndex = slice.endIndex() == -1 ? Integer.MAX_VALUE : slice.endIndex();
             int startIndex = slice.startIndex() == -1 ? 1 : slice.startIndex();
             for (AbstractInsnNode insn : insns) {
-                if (!filter.test(insn)) continue;
+                if (!filter.test(insn))
+                    continue;
                 count++;
                 if (count >= startIndex && count <= endIndex) {
                     matches.add(insn);
@@ -733,12 +759,14 @@ public final class PatchTransformer {
         }
         // method-bounded slice
         String[] startSplit = slice.start().method().isEmpty()
-                ? null : ASMHelpers.splitOwnerName(slice.start().method());
+                ? null
+                : ASMHelpers.splitOwnerName(slice.start().method());
         String startDesc = slice.start().desc();
         String startName = startSplit == null ? null
                 : Bootstrap.remapMethod(startSplit[0], startSplit[1], startDesc);
         String[] endSplit = slice.end().method().isEmpty()
-                ? null : ASMHelpers.splitOwnerName(slice.end().method());
+                ? null
+                : ASMHelpers.splitOwnerName(slice.end().method());
         String endDesc = slice.end().desc();
         String endName = endSplit == null ? null
                 : Bootstrap.remapMethod(endSplit[0], endSplit[1], endDesc);
@@ -765,7 +793,8 @@ public final class PatchTransformer {
     private static Set<Integer> collectInitializedLocalsBefore(MethodNode method, AbstractInsnNode boundary) {
         Set<Integer> locals = new HashSet<>();
         for (AbstractInsnNode insn : method.instructions) {
-            if (insn == boundary) break;
+            if (insn == boundary)
+                break;
             if (insn instanceof VarInsnNode v && v.getOpcode() >= Opcodes.ISTORE && v.getOpcode() <= Opcodes.ASTORE) {
                 locals.add(v.var);
             }
@@ -774,7 +803,8 @@ public final class PatchTransformer {
     }
 
     /**
-     * Swap a value just pushed below the CallbackInfo / Invocation reference. Long/double take
+     * Swap a value just pushed below the CallbackInfo / Invocation reference.
+     * Long/double take
      * two slots and need DUP2_X1+POP2 instead of SWAP. Mirrors izmk's helper.
      */
     private static void swapForCallback(Type type, InsnList insns) {
@@ -791,13 +821,17 @@ public final class PatchTransformer {
         public boolean equals(Object o) {
             return o instanceof MethodKey k && k.name.equals(name) && k.desc.equals(desc);
         }
+
         @Override
         public int hashCode() {
             return name.hashCode() * 31 + desc.hashCode();
         }
     }
 
-    /** Suppresses an unused-warning for {@link Arrays} import (kept for parity with izmk). */
+    /**
+     * Suppresses an unused-warning for {@link Arrays} import (kept for parity with
+     * izmk).
+     */
     @SuppressWarnings("unused")
     private static void keepArraysImport() {
         Arrays.asList();

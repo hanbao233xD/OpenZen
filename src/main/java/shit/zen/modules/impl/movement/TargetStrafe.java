@@ -1,18 +1,18 @@
-package shit.zen.modules.impl.movement;
+package sh1t.ze.modules.impl.movement;
 
 import java.util.ArrayList;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.phys.AABB;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.SneakEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.modules.impl.combat.KillAura;
-import shit.zen.settings.impl.BooleanSetting;
-import shit.zen.settings.impl.NumberSetting;
-import shit.zen.utils.animation.Timer;
-import shit.zen.utils.game.MovementUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.SneakEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.modules.impl.combat.KillAura;
+import sh1t.ze.settings.impl.BooleanSetting;
+import sh1t.ze.settings.impl.NumberSetting;
+import sh1t.ze.utils.animation.Timer;
+import sh1t.ze.utils.game.MovementUtil;
+import sh1t.ze.event.EventTarget;
 
 public class TargetStrafe
 extends Module {

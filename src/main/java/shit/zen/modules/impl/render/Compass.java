@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.render;
+package sh1t.ze.modules.impl.render;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.Mth;
@@ -6,19 +6,19 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import shit.zen.event.impl.GlRenderEvent;
-import shit.zen.event.impl.RenderEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.modules.impl.movement.Scaffold;
-import shit.zen.render.DrawContext;
-import shit.zen.render.Paint;
-import shit.zen.render.Path;
-import shit.zen.render.ShadowFactory;
-import shit.zen.render.ShadowMode;
-import shit.zen.settings.impl.BooleanSetting;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.GlRenderEvent;
+import sh1t.ze.event.impl.RenderEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.modules.impl.movement.Scaffold;
+import sh1t.ze.render.DrawContext;
+import sh1t.ze.render.Paint;
+import sh1t.ze.render.Path;
+import sh1t.ze.render.ShadowFactory;
+import sh1t.ze.render.ShadowMode;
+import sh1t.ze.settings.impl.BooleanSetting;
+import sh1t.ze.event.EventTarget;
 
 public class Compass
 extends Module {

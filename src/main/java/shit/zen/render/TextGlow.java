@@ -1,10 +1,10 @@
-package shit.zen.render;
+package sh1t.ze.render;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.awt.Color;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.utils.render.RenderUtil;
 
 public final class TextGlow {
     private TextGlow() {

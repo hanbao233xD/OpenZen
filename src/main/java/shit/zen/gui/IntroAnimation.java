@@ -1,14 +1,14 @@
-package shit.zen.gui;
+package sh1t.ze.gui;
 
 import java.awt.Color;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.GlRenderEvent;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.render.Paint;
-import shit.zen.event.EventTarget;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.GlRenderEvent;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.render.Paint;
+import sh1t.ze.event.EventTarget;
 
 public class IntroAnimation
 extends ClientBase {

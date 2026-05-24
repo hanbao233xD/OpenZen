@@ -1,12 +1,12 @@
-package shit.zen.modules.impl.player.helper;
+package sh1t.ze.modules.impl.player.helper;
 
 import lombok.Getter;
-import shit.zen.ClientBase;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PreMotionEvent;
-import shit.zen.event.impl.RenderEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.utils.rotation.Rotation;
+import sh1t.ze.ClientBase;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PreMotionEvent;
+import sh1t.ze.event.impl.RenderEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.utils.rotation.Rotation;
 
 public abstract class HelperBase
 extends ClientBase {

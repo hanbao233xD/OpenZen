@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.movement;
+package sh1t.ze.modules.impl.movement;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
@@ -9,13 +9,13 @@ import net.minecraft.world.entity.vehicle.Minecart;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.scores.Team;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.utils.game.MovementUtil;
-import shit.zen.utils.game.RotationUtil;
-import shit.zen.utils.rotation.Rotation;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.utils.game.MovementUtil;
+import sh1t.ze.utils.game.RotationUtil;
+import sh1t.ze.utils.rotation.Rotation;
+import sh1t.ze.event.EventTarget;
 
 public class CollisionSpeed
 extends Module {

@@ -1,13 +1,13 @@
-package shit.zen.modules.impl.render;
+package sh1t.ze.modules.impl.render;
 
-import shit.zen.event.impl.GlRenderEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.hud.DynamicIsland;
-import shit.zen.hud.NeverloseWatermark;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.settings.impl.ModeSetting;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.GlRenderEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.hud.DynamicIsland;
+import sh1t.ze.hud.NeverloseWatermark;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.settings.impl.ModeSetting;
+import sh1t.ze.event.EventTarget;
 
 public class Watermark extends Module {
     final ModeSetting styleSetting = new ModeSetting("Style", "Neverlose", "DynamicIsland").withDefault("DynamicIsland");

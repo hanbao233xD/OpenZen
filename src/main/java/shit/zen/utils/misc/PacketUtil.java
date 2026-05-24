@@ -1,4 +1,4 @@
-package shit.zen.utils.misc;
+package sh1t.ze.utils.misc;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -23,10 +23,10 @@ import net.minecraft.network.protocol.game.ServerGamePacketListener;
 import net.minecraft.network.protocol.login.ClientboundCustomQueryPacket;
 import net.minecraft.network.protocol.login.ClientboundGameProfilePacket;
 import net.minecraft.network.protocol.status.ClientboundPongResponsePacket;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.PacketSendEvent;
-import shit.zen.utils.misc.ReflectionUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.PacketSendEvent;
+import sh1t.ze.utils.misc.ReflectionUtil;
 
 public final class PacketUtil
 extends ClientBase {

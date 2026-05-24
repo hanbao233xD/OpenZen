@@ -1,12 +1,12 @@
-package shit.zen.utils.math;
+package sh1t.ze.utils.math;
 
 import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import shit.zen.utils.math.AbstractEasing;
-import shit.zen.utils.math.Point2d;
+import sh1t.ze.utils.math.AbstractEasing;
+import sh1t.ze.utils.math.Point2d;
 
 public class CubicBezier
 extends AbstractEasing {

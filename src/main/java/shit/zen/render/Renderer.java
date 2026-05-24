@@ -1,4 +1,4 @@
-package shit.zen.render;
+package sh1t.ze.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.BufferUploader;
@@ -9,10 +9,10 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL13;
 import org.lwjgl.opengl.GL14;
 import org.lwjgl.opengl.GL33;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.render.DrawContext;
-import shit.zen.utils.misc.ReflectionUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.render.DrawContext;
+import sh1t.ze.utils.misc.ReflectionUtil;
 import sun.misc.Unsafe;
 
 public class Renderer

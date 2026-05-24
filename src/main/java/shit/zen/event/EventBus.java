@@ -1,4 +1,4 @@
-package shit.zen.event;
+package sh1t.ze.event;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

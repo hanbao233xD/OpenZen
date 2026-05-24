@@ -1,20 +1,20 @@
-package shit.zen.gui.panel.setting;
+package sh1t.ze.gui.panel.setting;
 
 import java.awt.Color;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 import net.minecraft.client.gui.GuiGraphics;
-import shit.zen.ClientBase;
-import shit.zen.gui.PanelClickGui;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.render.GlyphMetrics;
-import shit.zen.render.TextGlow;
-import shit.zen.settings.Setting;
-import shit.zen.settings.impl.NumberSetting;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.gui.PanelClickGui;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.render.GlyphMetrics;
+import sh1t.ze.render.TextGlow;
+import sh1t.ze.settings.Setting;
+import sh1t.ze.settings.impl.NumberSetting;
+import sh1t.ze.utils.render.RenderUtil;
 
 public class NumberSettingRenderer
 extends ClientBase

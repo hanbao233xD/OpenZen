@@ -1,4 +1,4 @@
-package shit.zen.hud.target;
+package sh1t.ze.hud.target;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -8,16 +8,16 @@ import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.modules.impl.render.NameProtect;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.render.Paint;
-import shit.zen.render.Renderer;
-import shit.zen.utils.animation.SmoothAnimationTimer;
-import shit.zen.utils.math.Easings;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.modules.impl.render.NameProtect;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.render.Paint;
+import sh1t.ze.render.Renderer;
+import sh1t.ze.utils.animation.SmoothAnimationTimer;
+import sh1t.ze.utils.math.Easings;
+import sh1t.ze.utils.render.RenderUtil;
 
 public class RoundTargetStyle
 extends TargetStyle {

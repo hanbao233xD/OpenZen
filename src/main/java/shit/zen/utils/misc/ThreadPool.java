@@ -1,4 +1,4 @@
-package shit.zen.utils.misc;
+package sh1t.ze.utils.misc;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

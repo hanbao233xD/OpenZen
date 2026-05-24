@@ -1,4 +1,4 @@
-package shit.zen.utils.animation;
+package sh1t.ze.utils.animation;
 
 import net.minecraft.util.Mth;
 

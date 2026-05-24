@@ -1,4 +1,4 @@
-package shit.zen.asm;
+package sh1t.ze.asm;
 
 import java.util.List;
 import java.util.concurrent.Callable;

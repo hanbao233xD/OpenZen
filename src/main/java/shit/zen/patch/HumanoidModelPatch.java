@@ -1,4 +1,4 @@
-package shit.zen.patch;
+package sh1t.ze.patch;
 
 import asm.patchify.annotation.Patch;
 import asm.patchify.annotation.Transform;
@@ -11,9 +11,9 @@ import org.objectweb.asm.tree.InsnList;
 import org.objectweb.asm.tree.MethodInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 import org.objectweb.asm.tree.VarInsnNode;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.CameraPitchEvent;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.CameraPitchEvent;
 
 @Patch(HumanoidModel.class)
 public class HumanoidModelPatch {

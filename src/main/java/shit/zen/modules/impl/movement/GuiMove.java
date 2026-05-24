@@ -1,16 +1,16 @@
-package shit.zen.modules.impl.movement;
+package sh1t.ze.modules.impl.movement;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.gui.screens.ChatScreen;
 import net.minecraft.world.inventory.InventoryMenu;
-import shit.zen.event.impl.StrafeEvent;
-import shit.zen.gui.NewClickGui;
-import shit.zen.gui.OldClickGui;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.modules.impl.player.InventoryManager;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.StrafeEvent;
+import sh1t.ze.gui.NewClickGui;
+import sh1t.ze.gui.OldClickGui;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.modules.impl.player.InventoryManager;
+import sh1t.ze.event.EventTarget;
 
 public class GuiMove
 extends Module {

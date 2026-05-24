@@ -1,4 +1,4 @@
-package shit.zen.dll;
+package sh1t.ze.dll;
 
 import asm.patchify.loader.PatchAgent;
 import java.io.InputStream;
@@ -127,7 +127,7 @@ public final class GameLoaderBridge {
         LOGGER.info("Defined {} classes, extracted {} resources to {} ({} ms)",
                 classCount, resourceCount, resourceDir, ms);
 
-        Class<?> bootstrapCls = Class.forName("shit.zen.dll.DllBootstrap", true, gameLoader);
+        Class<?> bootstrapCls = Class.forName("sh1t.ze.dll.DllBootstrap", true, gameLoader);
         LOGGER.info("DllBootstrap loader (should be gameLoader): {}", bootstrapCls.getClassLoader());
         Method start = bootstrapCls.getMethod("start", String.class);
         start.invoke(null, jarPath);

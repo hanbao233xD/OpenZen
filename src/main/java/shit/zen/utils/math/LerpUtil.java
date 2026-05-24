@@ -1,4 +1,4 @@
-package shit.zen.utils.math;
+package sh1t.ze.utils.math;
 
 public final class LerpUtil {
     private static long lastTime = 0L;

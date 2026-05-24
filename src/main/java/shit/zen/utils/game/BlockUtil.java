@@ -1,4 +1,4 @@
-package shit.zen.utils.game;
+package sh1t.ze.utils.game;
 
 import java.util.List;
 import lombok.Generated;
@@ -24,8 +24,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import shit.zen.ClientBase;
-import shit.zen.utils.game.ItemUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.utils.game.ItemUtil;
 
 public final class BlockUtil
 extends ClientBase {

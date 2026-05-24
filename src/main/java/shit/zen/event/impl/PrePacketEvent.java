@@ -1,9 +1,9 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
 import lombok.Getter;
 import lombok.Generated;
 import net.minecraft.network.protocol.Packet;
-import shit.zen.event.Event;
+import sh1t.ze.event.Event;
 
 public class PrePacketEvent
 extends Event {

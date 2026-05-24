@@ -1,14 +1,14 @@
-package shit.zen.patch;
+package sh1t.ze.patch;
 
 import asm.patchify.annotation.Inject;
 import asm.patchify.annotation.Patch;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.ChatScreen;
 import org.lwjgl.glfw.GLFW;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.hud.HudElement;
-import shit.zen.modules.Module;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.hud.HudElement;
+import sh1t.ze.modules.Module;
 
 @Patch(ChatScreen.class)
 public class ChatScreenPatch {

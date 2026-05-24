@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.combat;
+package sh1t.ze.modules.impl.combat;
 
 import java.util.Optional;
 import java.util.stream.StreamSupport;
@@ -11,17 +11,17 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.boss.enderdragon.EndCrystal;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.PreMotionEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.settings.impl.BooleanSetting;
-import shit.zen.utils.game.RotationUtil;
-import shit.zen.utils.misc.PacketUtil;
-import shit.zen.utils.rotation.Rotation;
-import shit.zen.utils.rotation.RotationHandler;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.PreMotionEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.settings.impl.BooleanSetting;
+import sh1t.ze.utils.game.RotationUtil;
+import sh1t.ze.utils.misc.PacketUtil;
+import sh1t.ze.utils.rotation.Rotation;
+import sh1t.ze.utils.rotation.RotationHandler;
+import sh1t.ze.event.EventTarget;
 
 public class CrystalAura
 extends Module {

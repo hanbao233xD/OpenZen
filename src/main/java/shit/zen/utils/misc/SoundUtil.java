@@ -1,4 +1,4 @@
-package shit.zen.utils.misc;
+package sh1t.ze.utils.misc;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -13,8 +13,8 @@ import javax.sound.sampled.FloatControl;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JOptionPane;
-import shit.zen.manager.ConfigManager;
-import shit.zen.utils.math.MathUtil;
+import sh1t.ze.manager.ConfigManager;
+import sh1t.ze.utils.math.MathUtil;
 
 public final class SoundUtil {
     public static void playSound(String title, String message) {

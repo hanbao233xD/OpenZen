@@ -1,4 +1,4 @@
-package shit.zen.render;
+package sh1t.ze.render;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;

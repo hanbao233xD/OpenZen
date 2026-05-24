@@ -1,8 +1,8 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import shit.zen.event.EventMarker;
+import sh1t.ze.event.EventMarker;
 
 @Data
 @AllArgsConstructor

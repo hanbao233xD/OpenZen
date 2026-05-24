@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.render.nametag;
+package sh1t.ze.modules.impl.render.nametag;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.awt.Color;
@@ -16,24 +16,24 @@ import net.minecraft.network.protocol.game.ClientboundSetScorePacket;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.event.impl.RenderEvent;
-import shit.zen.modules.impl.render.NameTags;
-import shit.zen.modules.impl.world.Teams;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.Fonts;
-import shit.zen.render.Paint;
-import shit.zen.render.Renderer;
-import shit.zen.render.RoundedRectangle;
-import shit.zen.settings.impl.BooleanSetting;
-import shit.zen.settings.impl.NumberSetting;
-import shit.zen.utils.game.ItemAlertTracker;
-import shit.zen.utils.math.MathUtil;
-import shit.zen.utils.math.Vector2f;
-import shit.zen.utils.render.ProjectionUtil;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.event.impl.RenderEvent;
+import sh1t.ze.modules.impl.render.NameTags;
+import sh1t.ze.modules.impl.world.Teams;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.Fonts;
+import sh1t.ze.render.Paint;
+import sh1t.ze.render.Renderer;
+import sh1t.ze.render.RoundedRectangle;
+import sh1t.ze.settings.impl.BooleanSetting;
+import sh1t.ze.settings.impl.NumberSetting;
+import sh1t.ze.utils.game.ItemAlertTracker;
+import sh1t.ze.utils.math.MathUtil;
+import sh1t.ze.utils.math.Vector2f;
+import sh1t.ze.utils.render.ProjectionUtil;
 
 public class OpalNameTag extends NameTagStyle {
     private static final int PADDING = new Color(0, 0, 0, 120).getRGB();

@@ -1,4 +1,4 @@
-package shit.zen.utils.misc;
+package sh1t.ze.utils.misc;
 
 import com.mojang.blaze3d.pipeline.RenderTarget;
 import it.unimi.dsi.fastutil.objects.Object2LongMap;
@@ -15,8 +15,8 @@ import net.minecraft.world.Container;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.inventory.BrewingStandMenu;
 import sun.misc.Unsafe;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
 
 public final class ReflectionUtil {
     private static final MethodHandles.Lookup lookup = MethodHandles.lookup();
@@ -195,11 +195,11 @@ public final class ReflectionUtil {
     }
 
     public static String getMappedFieldName(Class<?> clazz, String fieldName) {
-        return shit.zen.asm.Bootstrap.remapField(clazz.getName().replace('.', '/'), fieldName);
+        return sh1t.ze.asm.Bootstrap.remapField(clazz.getName().replace('.', '/'), fieldName);
     }
 
     public static String getMappedMethodName(Class<?> clazz, String methodName, String descriptor) {
-        return shit.zen.asm.Bootstrap.remapMethod(clazz.getName().replace('.', '/'), methodName, descriptor);
+        return sh1t.ze.asm.Bootstrap.remapMethod(clazz.getName().replace('.', '/'), methodName, descriptor);
     }
 
     /**
@@ -211,7 +211,7 @@ public final class ReflectionUtil {
     private static Field resolveField(Class<?> clazz, String name) throws NoSuchFieldException {
         NoSuchFieldException last = null;
         for (Class<?> c = clazz; c != null; c = c.getSuperclass()) {
-            String srg = shit.zen.asm.Bootstrap.remapField(
+            String srg = sh1t.ze.asm.Bootstrap.remapField(
                     c.getName().replace('.', '/'), name);
             try {
                 return c.getDeclaredField(srg);

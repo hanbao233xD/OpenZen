@@ -1,12 +1,12 @@
-package shit.zen.command.impl;
+package sh1t.ze.command.impl;
 
 import com.mojang.blaze3d.platform.InputConstants;
-import shit.zen.ZenClient;
-import shit.zen.command.Command;
-import shit.zen.event.EventTarget;
-import shit.zen.exception.ModuleNotFoundException;
-import shit.zen.modules.Module;
-import shit.zen.utils.misc.ChatUtil;
+import sh1t.ze.ZenClient;
+import sh1t.ze.command.Command;
+import sh1t.ze.event.EventTarget;
+import sh1t.ze.exception.ModuleNotFoundException;
+import sh1t.ze.modules.Module;
+import sh1t.ze.utils.misc.ChatUtil;
 
 public class BindCommand
 extends Command {
@@ -22,7 +22,7 @@ extends Command {
         }
 
         @EventTarget
-        public void onKey(shit.zen.event.impl.KeyEvent event) {
+        public void onKey(sh1t.ze.event.impl.KeyEvent event) {
             if (!event.isPressed()) return;
             int keyCode = event.getKeyCode();
             if (keyCode == 256) {

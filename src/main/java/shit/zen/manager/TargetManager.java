@@ -1,4 +1,4 @@
-package shit.zen.manager;
+package sh1t.ze.manager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,12 +7,12 @@ import lombok.Generated;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.phys.Vec3;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.GameTickEvent;
-import shit.zen.modules.impl.combat.KillAura;
-import shit.zen.utils.game.RotationUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.GameTickEvent;
+import sh1t.ze.modules.impl.combat.KillAura;
+import sh1t.ze.utils.game.RotationUtil;
+import sh1t.ze.event.EventTarget;
 
 public class TargetManager
 extends ClientBase {

@@ -1,9 +1,9 @@
-package shit.zen.render;
+package sh1t.ze.render;
 
 import java.awt.Font;
 import java.io.InputStream;
 import org.jetbrains.annotations.NotNull;
-import shit.zen.utils.misc.Assets;
+import sh1t.ze.utils.misc.Assets;
 
 public class FontStore {
     public static CustomFont OPENSANS_16 = loadFont(16.0f, "opensans.ttf");

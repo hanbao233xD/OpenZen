@@ -1,4 +1,4 @@
-package shit.zen.gui;
+package sh1t.ze.gui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,10 +8,10 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
-import shit.zen.gui.newclickgui.CategoryPanel;
-import shit.zen.modules.Category;
-import shit.zen.utils.animation.SmoothAnimationTimer;
-import shit.zen.utils.math.Easings;
+import sh1t.ze.gui.newclickgui.CategoryPanel;
+import sh1t.ze.modules.Category;
+import sh1t.ze.utils.animation.SmoothAnimationTimer;
+import sh1t.ze.utils.math.Easings;
 
 public class NewClickGui
 extends Screen {

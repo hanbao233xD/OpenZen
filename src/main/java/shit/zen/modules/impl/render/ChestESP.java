@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.render;
+package sh1t.ze.modules.impl.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.BufferBuilder;
@@ -20,16 +20,16 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.ChestType;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.AABB;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.RenderEvent;
-import shit.zen.event.impl.WorldChangeEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.utils.game.BlockUtil;
-import shit.zen.utils.game.ChunkUtil;
-import shit.zen.utils.render.RenderUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.RenderEvent;
+import sh1t.ze.event.impl.WorldChangeEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.utils.game.BlockUtil;
+import sh1t.ze.utils.game.ChunkUtil;
+import sh1t.ze.utils.render.RenderUtil;
+import sh1t.ze.event.EventTarget;
 
 public class ChestESP
 extends Module {

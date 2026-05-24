@@ -1,22 +1,22 @@
-package shit.zen.modules.impl.combat.antikb;
+package sh1t.ze.modules.impl.combat.antikb;
 
 import java.util.HashMap;
 import java.util.Optional;
-import shit.zen.ClientBase;
-import shit.zen.event.impl.DisconnectEvent;
-import shit.zen.event.impl.GameTickEvent;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PreMotionEvent;
-import shit.zen.event.impl.ReceivePacketEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.event.impl.RenderEvent;
-import shit.zen.event.impl.RotationEvent;
-import shit.zen.event.impl.SprintEvent;
-import shit.zen.event.impl.StrafeEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.modules.impl.combat.antikb.JumpResetMode;
-import shit.zen.modules.impl.combat.antikb.MixMode;
-import shit.zen.modules.impl.combat.antikb.NoXZMode;
+import sh1t.ze.ClientBase;
+import sh1t.ze.event.impl.DisconnectEvent;
+import sh1t.ze.event.impl.GameTickEvent;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PreMotionEvent;
+import sh1t.ze.event.impl.ReceivePacketEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.event.impl.RenderEvent;
+import sh1t.ze.event.impl.RotationEvent;
+import sh1t.ze.event.impl.SprintEvent;
+import sh1t.ze.event.impl.StrafeEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.modules.impl.combat.antikb.JumpResetMode;
+import sh1t.ze.modules.impl.combat.antikb.MixMode;
+import sh1t.ze.modules.impl.combat.antikb.NoXZMode;
 
 public abstract class AntiKBMode
 extends ClientBase {

@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.combat;
+package sh1t.ze.modules.impl.combat;
 
 import com.mojang.authlib.GameProfile;
 import java.util.HashSet;
@@ -13,15 +13,15 @@ import net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket;
 import net.minecraft.network.protocol.game.ClientboundRemoveEntitiesPacket;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.GameType;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.WorldChangeEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.settings.impl.BooleanSetting;
-import shit.zen.settings.impl.NumberSetting;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.WorldChangeEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.settings.impl.BooleanSetting;
+import sh1t.ze.settings.impl.NumberSetting;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.event.EventTarget;
 
 public class AntiBots
 extends Module {

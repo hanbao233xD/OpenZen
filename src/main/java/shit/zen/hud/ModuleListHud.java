@@ -1,19 +1,19 @@
-package shit.zen.hud;
+package sh1t.ze.hud;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import net.minecraft.util.Mth;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.GlRenderEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.modules.Module;
-import shit.zen.modules.impl.render.Interface;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.utils.render.ColorUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.GlRenderEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.modules.Module;
+import sh1t.ze.modules.impl.render.Interface;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.utils.render.ColorUtil;
+import sh1t.ze.event.EventTarget;
 
 public class ModuleListHud
 extends HudElement {

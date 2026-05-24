@@ -1,12 +1,12 @@
-package shit.zen.hud;
+package sh1t.ze.hud;
 
 import lombok.Getter;
 import lombok.Setter;
-import shit.zen.event.impl.GlRenderEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.event.impl.GlRenderEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.utils.render.RenderUtil;
 
 public abstract class HudElement
 extends Module {

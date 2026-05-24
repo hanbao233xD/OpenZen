@@ -1,11 +1,11 @@
-package shit.zen.modules.impl.combat;
+package sh1t.ze.modules.impl.combat;
 
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
-import shit.zen.event.impl.EntityRemoveEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.EntityRemoveEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.event.EventTarget;
 
 public class Critical
 extends Module {

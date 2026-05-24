@@ -1,6 +1,6 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
-import shit.zen.event.Event;
+import sh1t.ze.event.Event;
 
 public class PreMotionEvent
 extends Event {

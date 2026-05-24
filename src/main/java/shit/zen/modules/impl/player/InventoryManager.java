@@ -1,4 +1,4 @@
-package shit.zen.modules.impl.player;
+package sh1t.ze.modules.impl.player;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -40,23 +40,23 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.SwordItem;
 import org.apache.commons.lang3.tuple.Pair;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.SprintEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.modules.impl.movement.GuiMove;
-import shit.zen.modules.impl.movement.Scaffold;
-import shit.zen.settings.impl.BooleanSetting;
-import shit.zen.settings.impl.ModeSetting;
-import shit.zen.settings.impl.NumberSetting;
-import shit.zen.utils.animation.Timer;
-import shit.zen.utils.game.BlockUtil;
-import shit.zen.utils.game.ItemUtil;
-import shit.zen.utils.game.MovementUtil;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.utils.misc.PacketUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.SprintEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.modules.impl.movement.GuiMove;
+import sh1t.ze.modules.impl.movement.Scaffold;
+import sh1t.ze.settings.impl.BooleanSetting;
+import sh1t.ze.settings.impl.ModeSetting;
+import sh1t.ze.settings.impl.NumberSetting;
+import sh1t.ze.utils.animation.Timer;
+import sh1t.ze.utils.game.BlockUtil;
+import sh1t.ze.utils.game.ItemUtil;
+import sh1t.ze.utils.game.MovementUtil;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.utils.misc.PacketUtil;
+import sh1t.ze.event.EventTarget;
 
 public class InventoryManager extends Module {
     public static InventoryManager INSTANCE;

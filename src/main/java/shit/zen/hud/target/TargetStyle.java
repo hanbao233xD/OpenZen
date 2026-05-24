@@ -1,11 +1,11 @@
-package shit.zen.hud.target;
+package sh1t.ze.hud.target;
 
 import java.util.HashMap;
 import net.minecraft.world.entity.LivingEntity;
-import shit.zen.ClientBase;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.hud.target.RoundTargetStyle;
-import shit.zen.utils.animation.SmoothAnimationTimer;
+import sh1t.ze.ClientBase;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.hud.target.RoundTargetStyle;
+import sh1t.ze.utils.animation.SmoothAnimationTimer;
 
 public abstract class TargetStyle
 extends ClientBase {

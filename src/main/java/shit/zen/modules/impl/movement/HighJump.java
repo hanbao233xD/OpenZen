@@ -1,18 +1,18 @@
-package shit.zen.modules.impl.movement;
+package sh1t.ze.modules.impl.movement;
 
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket;
 import net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket;
 import net.minecraft.network.protocol.game.ServerboundMovePlayerPacket;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.PreTickEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.utils.misc.PacketUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.PreTickEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.utils.misc.PacketUtil;
+import sh1t.ze.event.EventTarget;
 
 public class HighJump
 extends Module {

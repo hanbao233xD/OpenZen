@@ -1,4 +1,4 @@
-package shit.zen.utils.math;
+package sh1t.ze.utils.math;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

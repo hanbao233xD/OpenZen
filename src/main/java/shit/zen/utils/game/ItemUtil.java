@@ -1,4 +1,4 @@
-package shit.zen.utils.game;
+package sh1t.ze.utils.game;
 
 import com.google.common.collect.Multimap;
 import java.util.ArrayList;
@@ -34,8 +34,8 @@ import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SkullBlock;
-import shit.zen.ClientBase;
-import shit.zen.utils.game.BlockUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.utils.game.BlockUtil;
 
 public final class ItemUtil
 extends ClientBase {

@@ -1,19 +1,19 @@
-package shit.zen.hud;
+package sh1t.ze.hud;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.client.multiplayer.ServerData;
-import shit.zen.ClientBase;
-import shit.zen.event.impl.GlRenderEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.render.DrawContext;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.render.Paint;
-import shit.zen.utils.render.ColorUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.event.impl.GlRenderEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.render.DrawContext;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.render.Paint;
+import sh1t.ze.utils.render.ColorUtil;
 
 public class NeverloseWatermark {
     private final FontRenderer boldFont = FontPresets.museoSans(18.0f);

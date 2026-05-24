@@ -1,4 +1,4 @@
-package shit.zen.utils.game;
+package sh1t.ze.utils.game;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import java.lang.reflect.Method;
@@ -21,11 +21,11 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import shit.zen.ClientBase;
-import shit.zen.utils.game.RotationUtil;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.utils.misc.ReflectionUtil;
-import shit.zen.utils.rotation.Rotation;
+import sh1t.ze.ClientBase;
+import sh1t.ze.utils.game.RotationUtil;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.utils.misc.ReflectionUtil;
+import sh1t.ze.utils.rotation.Rotation;
 
 public final class PlayerUtil
 extends ClientBase {

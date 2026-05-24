@@ -1,12 +1,12 @@
-package shit.zen.render.shader;
+package sh1t.ze.render.shader;
 
 import java.nio.FloatBuffer;
 import lombok.Getter;
 import org.joml.Matrix4f;
 import org.lwjgl.opengl.GL20;
 import org.lwjgl.system.MemoryUtil;
-import shit.zen.render.shader.BufferUtil;
-import shit.zen.render.shader.Uniform;
+import sh1t.ze.render.shader.BufferUtil;
+import sh1t.ze.render.shader.Uniform;
 
 public class Matrix4Uniform
 extends Uniform<Matrix4Uniform> {

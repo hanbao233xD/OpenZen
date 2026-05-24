@@ -1,12 +1,12 @@
-package shit.zen.modules.impl.render.nametag;
+package sh1t.ze.modules.impl.render.nametag;
 
 import java.util.HashMap;
-import shit.zen.ClientBase;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.event.impl.RenderEvent;
-import shit.zen.modules.impl.render.nametag.OpalNameTag;
-import shit.zen.modules.impl.render.nametag.SimpleNameTag;
+import sh1t.ze.ClientBase;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.event.impl.RenderEvent;
+import sh1t.ze.modules.impl.render.nametag.OpalNameTag;
+import sh1t.ze.modules.impl.render.nametag.SimpleNameTag;
 
 public abstract class NameTagStyle
 extends ClientBase {

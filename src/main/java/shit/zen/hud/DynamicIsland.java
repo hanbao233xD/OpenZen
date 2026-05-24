@@ -1,17 +1,17 @@
-package shit.zen.hud;
+package sh1t.ze.hud;
 
 import java.awt.Color;
 import java.util.Arrays;
 import java.util.List;
 
 import net.minecraft.util.Mth;
-import shit.zen.ClientBase;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.render.Paint;
-import shit.zen.render.Renderer;
-import shit.zen.render.RoundedRectangle;
-import shit.zen.utils.animation.SpringAnimation;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.render.Paint;
+import sh1t.ze.render.Renderer;
+import sh1t.ze.render.RoundedRectangle;
+import sh1t.ze.utils.animation.SpringAnimation;
+import sh1t.ze.utils.render.RenderUtil;
 
 public class DynamicIsland {
     public static final class ActiveElementSelector {

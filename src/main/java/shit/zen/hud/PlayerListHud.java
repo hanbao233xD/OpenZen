@@ -1,4 +1,4 @@
-package shit.zen.hud;
+package sh1t.ze.hud;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -22,23 +22,23 @@ import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import shit.zen.modules.impl.render.NameProtect;
-import shit.zen.event.impl.GlRenderEvent;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.Render2DEvent;
-import shit.zen.event.impl.TickEvent;
-import shit.zen.render.DrawContext;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.render.Paint;
-import shit.zen.utils.animation.SmoothAnimationTimer;
-import shit.zen.utils.game.ItemUtil;
-import shit.zen.utils.math.Easings;
-import shit.zen.utils.misc.ChatUtil;
-import shit.zen.utils.render.ColorUtil;
-import shit.zen.utils.render.RenderUtil;
-import shit.zen.event.EventTarget;
+import sh1t.ze.modules.impl.render.NameProtect;
+import sh1t.ze.event.impl.GlRenderEvent;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.Render2DEvent;
+import sh1t.ze.event.impl.TickEvent;
+import sh1t.ze.render.DrawContext;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.render.Paint;
+import sh1t.ze.utils.animation.SmoothAnimationTimer;
+import sh1t.ze.utils.game.ItemUtil;
+import sh1t.ze.utils.math.Easings;
+import sh1t.ze.utils.misc.ChatUtil;
+import sh1t.ze.utils.render.ColorUtil;
+import sh1t.ze.utils.render.RenderUtil;
+import sh1t.ze.event.EventTarget;
 
 public class PlayerListHud
 extends HudElement {

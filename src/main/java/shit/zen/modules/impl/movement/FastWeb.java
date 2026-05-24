@@ -1,13 +1,13 @@
-package shit.zen.modules.impl.movement;
+package sh1t.ze.modules.impl.movement;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.phys.Vec3;
-import shit.zen.event.impl.MotionEvent;
-import shit.zen.event.impl.StrafeEvent;
-import shit.zen.event.impl.StuckInBlockEvent;
-import shit.zen.modules.Category;
-import shit.zen.modules.Module;
-import shit.zen.event.EventTarget;
+import sh1t.ze.event.impl.MotionEvent;
+import sh1t.ze.event.impl.StrafeEvent;
+import sh1t.ze.event.impl.StuckInBlockEvent;
+import sh1t.ze.modules.Category;
+import sh1t.ze.modules.Module;
+import sh1t.ze.event.EventTarget;
 
 public class FastWeb
 extends Module {

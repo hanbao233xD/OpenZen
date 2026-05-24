@@ -1,7 +1,7 @@
-package shit.zen.utils.game;
+package sh1t.ze.utils.game;
 
 import lombok.Generated;
-import shit.zen.utils.math.MathUtil;
+import sh1t.ze.utils.math.MathUtil;
 
 public final class CpsUtil {
     public static long toDelayMs(String mode, double cps) {

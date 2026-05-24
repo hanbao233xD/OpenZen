@@ -1,4 +1,4 @@
-package shit.zen.patch;
+package sh1t.ze.patch;
 
 import asm.patchify.annotation.At;
 import asm.patchify.annotation.Inject;
@@ -12,16 +12,16 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.phys.Vec3;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.asm.Invocation;
-import shit.zen.event.impl.*;
-import shit.zen.modules.impl.movement.NoDelay;
-import shit.zen.modules.impl.movement.Scaffold;
-import shit.zen.modules.impl.render.FullBright;
-import shit.zen.utils.game.PlayerUtil;
-import shit.zen.utils.misc.ReflectionUtil;
-import shit.zen.utils.rotation.RotationHandler;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.asm.Invocation;
+import sh1t.ze.event.impl.*;
+import sh1t.ze.modules.impl.movement.NoDelay;
+import sh1t.ze.modules.impl.movement.Scaffold;
+import sh1t.ze.modules.impl.render.FullBright;
+import sh1t.ze.utils.game.PlayerUtil;
+import sh1t.ze.utils.misc.ReflectionUtil;
+import sh1t.ze.utils.rotation.RotationHandler;
 
 @Patch(LivingEntity.class)
 public class LivingEntityPatch {

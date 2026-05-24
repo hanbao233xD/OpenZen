@@ -1,4 +1,4 @@
-package shit.zen.asm;
+package sh1t.ze.asm;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;

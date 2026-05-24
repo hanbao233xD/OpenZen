@@ -1,4 +1,4 @@
-package shit.zen.utils.render;
+package sh1t.ze.utils.render;
 
 import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
@@ -37,23 +37,23 @@ import org.joml.Matrix4f;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL20;
-import shit.zen.ClientBase;
-import shit.zen.render.GaussianBlur;
-import shit.zen.render.ResourceLocationWrapper;
-import shit.zen.render.shader.ShaderFormats;
-import shit.zen.render.shader.ShaderProgram;
-import shit.zen.utils.animation.Timer;
-import shit.zen.utils.game.EntityUtil;
-import shit.zen.utils.render.ColorUtil;
-import shit.zen.utils.render.RenderHelper;
-import shit.zen.utils.render.RenderUtil.ShadowTexture;
+import sh1t.ze.ClientBase;
+import sh1t.ze.render.GaussianBlur;
+import sh1t.ze.render.ResourceLocationWrapper;
+import sh1t.ze.render.shader.ShaderFormats;
+import sh1t.ze.render.shader.ShaderProgram;
+import sh1t.ze.utils.animation.Timer;
+import sh1t.ze.utils.game.EntityUtil;
+import sh1t.ze.utils.render.ColorUtil;
+import sh1t.ze.utils.render.RenderHelper;
+import sh1t.ze.utils.render.RenderUtil.ShadowTexture;
 
 public final class RenderUtil
 extends ClientBase {
 
     public static class ShadowTexture {
-        public shit.zen.render.ResourceLocationWrapper resourceLocation =
-                new shit.zen.render.ResourceLocationWrapper("texture/remote/"
+        public sh1t.ze.render.ResourceLocationWrapper resourceLocation =
+                new sh1t.ze.render.ResourceLocationWrapper("texture/remote/"
                         + org.apache.commons.lang3.RandomStringUtils.randomAlphanumeric(16));
 
         public ShadowTexture(java.awt.image.BufferedImage image) {

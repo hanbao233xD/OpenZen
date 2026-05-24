@@ -1,19 +1,19 @@
-package shit.zen.gui.panel;
+package sh1t.ze.gui.panel;
 
 import java.awt.Color;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Consumer;
 import net.minecraft.client.gui.GuiGraphics;
-import shit.zen.ClientBase;
-import shit.zen.modules.Category;
-import shit.zen.render.DrawContext;
-import shit.zen.render.FontPresets;
-import shit.zen.render.FontRenderer;
-import shit.zen.render.GlHelper;
-import shit.zen.render.Renderer;
-import shit.zen.render.TextGlow;
-import shit.zen.utils.math.LerpUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.modules.Category;
+import sh1t.ze.render.DrawContext;
+import sh1t.ze.render.FontPresets;
+import sh1t.ze.render.FontRenderer;
+import sh1t.ze.render.GlHelper;
+import sh1t.ze.render.Renderer;
+import sh1t.ze.render.TextGlow;
+import sh1t.ze.utils.math.LerpUtil;
 
 public class CategoryBar
 extends ClientBase {

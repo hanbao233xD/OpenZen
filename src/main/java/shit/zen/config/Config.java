@@ -1,11 +1,11 @@
-package shit.zen.config;
+package sh1t.ze.config;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import lombok.Getter;
-import shit.zen.manager.ConfigManager;
+import sh1t.ze.manager.ConfigManager;
 
 public abstract class Config {
     @Getter

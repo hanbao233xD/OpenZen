@@ -1,4 +1,4 @@
-package shit.zen.modules;
+package sh1t.ze.modules;
 
 public enum Category {
     COMBAT("Combat"),

@@ -1,4 +1,4 @@
-package shit.zen.patch;
+package sh1t.ze.patch;
 
 import asm.patchify.annotation.Patch;
 import asm.patchify.annotation.Transform;
@@ -13,11 +13,11 @@ import org.objectweb.asm.tree.LabelNode;
 import org.objectweb.asm.tree.MethodInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 import org.objectweb.asm.tree.VarInsnNode;
-import shit.zen.ClientBase;
-import shit.zen.ZenClient;
-import shit.zen.event.impl.PacketEvent;
-import shit.zen.event.impl.PrePacketEvent;
-import shit.zen.utils.misc.PacketUtil;
+import sh1t.ze.ClientBase;
+import sh1t.ze.ZenClient;
+import sh1t.ze.event.impl.PacketEvent;
+import sh1t.ze.event.impl.PrePacketEvent;
+import sh1t.ze.utils.misc.PacketUtil;
 
 @Patch(Connection.class)
 public class ConnectionPatch extends ClientBase {

@@ -1,15 +1,15 @@
-package shit.zen.gui.legacy;
+package sh1t.ze.gui.legacy;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import java.awt.Color;
 import java.util.List;
 import lombok.Getter;
-import shit.zen.gui.legacy.ModuleButton;
-import shit.zen.gui.legacy.SettingComponent;
-import shit.zen.render.FontStore;
-import shit.zen.settings.Setting;
-import shit.zen.settings.impl.MultiSelectSetting;
-import shit.zen.utils.render.RenderUtil;
+import sh1t.ze.gui.legacy.ModuleButton;
+import sh1t.ze.gui.legacy.SettingComponent;
+import sh1t.ze.render.FontStore;
+import sh1t.ze.settings.Setting;
+import sh1t.ze.settings.impl.MultiSelectSetting;
+import sh1t.ze.utils.render.RenderUtil;
 
 public class MultiSelectComponent
 extends SettingComponent {

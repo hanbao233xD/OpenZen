@@ -1,4 +1,4 @@
-package shit.zen.event.impl;
+package sh1t.ze.event.impl;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import lombok.Getter;
@@ -6,7 +6,7 @@ import lombok.Generated;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.world.entity.Entity;
-import shit.zen.event.Event;
+import sh1t.ze.event.Event;
 
 public class RenderEntityEvent
 extends Event {
