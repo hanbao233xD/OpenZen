@@ -114,7 +114,7 @@ jclass load_dll_bootstrap(JNIEnv* env, jobject game_loader,
     if (check_and_clear(env, "new URLClassLoader")) return nullptr;
     log::info("URLClassLoader constructed with parent=gameLoader");
 
-    // urlcl.loadClass("shit.zen.dll.GameLoaderBridge")
+    // urlcl.loadClass("sh1t.ze.dll.GameLoaderBridge")
     //
     // We deliberately load GameLoaderBridge - not DllBootstrap - because the
     // bridge's job is to re-define every class in zen.jar onto the game
@@ -124,7 +124,7 @@ jclass load_dll_bootstrap(JNIEnv* env, jobject game_loader,
     jclass classLoaderCls = env->FindClass("java/lang/ClassLoader");
     jmethodID loadClass = env->GetMethodID(classLoaderCls, "loadClass",
         "(Ljava/lang/String;)Ljava/lang/Class;");
-    jstring name = env->NewStringUTF("shit.zen.dll.GameLoaderBridge");
+    jstring name = env->NewStringUTF("sh1t.ze.dll.GameLoaderBridge");
     jobject loaded = env->CallObjectMethod(urlcl, loadClass, name);
     if (check_and_clear(env, "URLClassLoader.loadClass GameLoaderBridge")) return nullptr;
     if (!loaded) {
